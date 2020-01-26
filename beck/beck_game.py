@@ -2,8 +2,8 @@ import sys
 sys.path.append('..')
 
 # Global imports
-from scipy.ndimage import convolve
 import numpy as np
+from scipy.ndimage import convolve
 
 # Local imports
 from game import Game
