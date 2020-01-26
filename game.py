@@ -1,16 +1,30 @@
-class Game:
-    def __init__(self, players, state_handler, config, state_seed=0):
-        self.players = players
-        self.num_of_players = len(self.players)
-        self.state_handler = state_handler
-        assert self.state_handler.verify_players(self.players)
-        self.state = self.state_handler.get_initial_state(state_seed)
-        self.player_turn = self.state_handler.get_player_turn(self.initial_state)
+class Game():
+    def __init__(self):
+        pass
 
-    def play(self):
-        while not self.state_handler.check_terminal_state(state):
-            action = self.players[self.player_turn].get_action(self.state)
-            self.state = self.state_handler.update_state(self.state, action)
-            self.player_turn = (self.player_turn + 1) % num_of_players
-        
-        return self.state_handler.get_result(self.state)
+    def get_initial_state(self):
+        pass
+
+    def get_next_state(self, state, player, action):
+        pass
+
+    def get_actions_size(self):
+        pass
+
+    def get_allowed_actions(self, state, player):
+        pass
+
+    def get_is_terminal_state(self, state, player):
+        pass
+
+    def get_winner(self, state):
+        pass
+
+    def get_canonical_form(self, state, player):
+        pass
+
+    def get_symmetries(self, state):
+        pass
+
+    def get_hash_of_state(self, state):
+        pass
