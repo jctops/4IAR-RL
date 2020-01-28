@@ -8,7 +8,7 @@ from scipy.ndimage import convolve
 # Local imports
 from game import Game
 
-class Beck(Game):
+class BeckGame(Game):
     def __init__(self, m=4, n=9, k=4):
         self.m, self.n, self.k = m, n, k
         self.valid_wins = [
@@ -36,18 +36,19 @@ class Beck(Game):
         return np.zeros((self.m, self.n))
 
     def get_next_state(self, state, player, action):
-        state[action // self.m, action % self.m] = player
-        return state, 2 - (player%2)
+        state = np.copy(state)
+        state[action // self.n, action % self.n] = player
+        return state, 3 - player
 
     def get_actions_size(self):
         return self.m * self.n
 
-    def get_allowed_actions(self, state, player):
+    def get_allowed_actions(self, state, player=1):
         return (state == 0).ravel()
         # allowed_coordinates = np.argwhere(state == 0)
         # return [x[0] * self.m + x[1] for x in allowed_coordinates]
 
-    def get_is_terminal_state(self, state, player):
+    def get_is_terminal_state(self, state, player=1):
         if (state != 0).sum() == self.m * self.n:
             return True
 
@@ -69,7 +70,7 @@ class Beck(Game):
 
         return is_terminal_state
 
-    def get_result(self, state, player):
+    def get_result(self, state, player=1):
         winner = None
 
         for p in self.players:
@@ -96,11 +97,12 @@ class Beck(Game):
         return None
 
     def get_canonical_form(self, state, player):
+        canonical_state = np.copy(state)
         if player == 2:
-            ones, twos = state == 1, state == 2
-            state[ones] = 2
-            state[twos] = 1
-        return state
+            ones, twos = canonical_state == 1, canonical_state == 2
+            canonical_state[ones] = 2
+            canonical_state[twos] = 1
+        return canonical_state
 
     def get_symmetries(self, state, pi):
         pi_board = np.reshape(pi, (self.m, self.n))
@@ -112,4 +114,4 @@ class Beck(Game):
         ]
 
     def get_hash_of_state(self, state):
-        return hash(state.tostring)
+        return hash(state.tostring())

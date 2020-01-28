@@ -41,6 +41,7 @@ class MCTS():
         assert 'mcts_iterations' in args, 'MCTS args must specify mcts_iterations'
 
     def get_probs(self, canonical_state, temperature=1):
+        canonical_state = canonical_state.copy()
         self.straight_iterate(canonical_state)
 
         for _ in range(self.args['mcts_iterations'] - 1):
@@ -48,6 +49,7 @@ class MCTS():
         
         s = self.game.get_hash_of_state(canonical_state)
         counts = np.array([self.Nsa[(s,a)] if (s,a) in self.Nsa else 0 for a in range(self.actions_size)])
+
 
         if temperature == 0:
             best_action = np.argmax(counts)
@@ -67,12 +69,11 @@ class MCTS():
 
         if s not in self.Ts:
             # Then we haven't visited this node before: check if it's terminal
-            self.Ts[s] = self.game.get_result(
-                    self, canonical_state, 1)
+            self.Ts[s] = self.game.get_result(canonical_state, 1)
 
         if self.Ts[s] is not None:
             # Then s is a terminal leaf node: return -value
-            return -self.Vs[s]
+            return -self.Ts[s]
 
         if s not in self.Ps:
             # Then s is a non-terminal leaf node:
@@ -86,6 +87,7 @@ class MCTS():
             else:
                 self.Ps[s] += allowed_actions
                 self.Ps[s] /= self.Ps[s].sum()
+                print('Something bad happened')
             
             self.As[s] = allowed_actions
             self.Ns[s] = 0
@@ -111,6 +113,7 @@ class MCTS():
 
         v = self.straight_iterate(next_state)
 
+        a = best_action
         if (s,a) in self.Qsa:
             self.Qsa[(s,a)] = (self.Nsa[(s,a)]*self.Qsa[(s,a)] + v) / (self.Nsa[(s,a)] + 1)
             self.Nsa[(s,a)] += 1
