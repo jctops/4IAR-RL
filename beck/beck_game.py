@@ -10,25 +10,13 @@ from game import Game
 
 class BeckGame(Game):
     def __init__(self, m=4, n=9, k=4):
+        assert k <= m and k <= n, "n-in-a-row must fit on the board all four ways!"
         self.m, self.n, self.k = m, n, k
         self.valid_wins = [
-            np.array([
-                [1, 0, 0, 0],
-                [0, 1, 0, 0],
-                [0, 0, 1, 0],
-                [0, 0, 0, 1]
-            ]),
-            np.array([
-                [0, 0, 0, 1],
-                [0, 0, 1, 0],
-                [0, 1, 0, 0],
-                [1, 0, 0, 0]
-            ]),
-            np.array([[1, 1, 1, 1]]),
-            np.array([[1],
-                    [1],
-                    [1],
-                    [1]])
+            np.identity(k),
+            np.rot90(np.identity(k)),
+            np.ones((1,k)),
+            np.ones((k,1))
         ]
         self.players = [1, 2]
 

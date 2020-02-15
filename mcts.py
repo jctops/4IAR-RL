@@ -50,7 +50,7 @@ class MCTS():
         s = self.game.get_hash_of_state(canonical_state)
         counts = np.array([self.Nsa[(s,a)] if (s,a) in self.Nsa else 0 for a in range(self.actions_size)])
 
-
+        # TODO Dirichlet noise!
         if temperature == 0:
             best_action = np.argmax(counts)
             probs = np.zeros(self.actions_size)
