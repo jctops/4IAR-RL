@@ -24,6 +24,11 @@ class MCTS():
         self.validate_mcts_args(args)
         self.args = args
 
+        self.iterate = self.straight_iterate if args['parallel_threads'] == 1 else self.parallel_iterate
+
+        self.reset()
+
+    def reset(self):
         self.Qsa = {}
         self.Wsa = {}
         self.Nsa = {}
@@ -33,14 +38,12 @@ class MCTS():
         self.As = {}
         self.Vs = {}
 
-        self.iterate = self.straight_iterate if args['parallel_threads'] == 1 else self.parallel_iterate
-
     def validate_mcts_args(self, args):
         assert 'parallel_threads' in args, 'MCTS args must specify parallel_threads'
         assert 'cpuct' in args, 'MCTS args must specify cpuct'
         assert 'mcts_iterations' in args, 'MCTS args must specify mcts_iterations'
 
-    def get_probs(self, canonical_state, temperature=1):
+    def get_probs(self, canonical_state, temperature=0):
         canonical_state = canonical_state.copy()
         self.straight_iterate(canonical_state)
 
