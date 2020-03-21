@@ -3,10 +3,13 @@ sys.path.append('..')
 
 # Global imports
 import numpy as np
+import os
+import pickle as pkl
 
 # Local imports
 from model import Model
 from beck.nnet_construction import build_residual_cnn
+from utils import printl
 
 class RandomBeckModel(Model):
     def __init__(self, game):
@@ -38,21 +41,55 @@ class NnetBeckModel(Model):
         self.game = game
         self.nnet = build_residual_cnn(nnet_args)
 
-    def train(self, examples):
-        pass
+    def train(self, examples, batch_size, epochs):
+        states, target_probs, target_values = list(zip(*examples))
+        nnet_input = self.states_to_nnet_input(states)
+        target_probs = np.asarray(target_probs)
+        target_values = np.asarray(target_values)
+        self.nnet.model.fit(x = nnet_input, y = [target_probs, target_values], batch_size = batch_size, epochs = epochs)
 
     def predict(self, state):
-        p, v = self.eval_net(state)
-        return p, v[0]
+        nnet_input = self.state_to_nnet_input(state)
+        nnet_output = self.nnet.predict(nnet_input)
+        value = nnet_output[0][0]
+        policy = self.mask_probs_by_state(nnet_output[1][0], state)
+        return policy, value[0]
+    
+    def get_policy(self, state):
+        return self.predict(state)[0]
+    
+    def get_value(self, state):
+        return self.predict(state)[1]
 
-    def predict_batch(self, state):
-        pass    # TODO
+    def predict_batch(self, states):
+        nnet_input = self.states_to_nnet_input(states)
+        nnet_output = self.nnet.predict(nnet_input)
+        value = nnet_output[0,:,0]
+        policy = nnet_output[1,:]
+        for i in range(states.shape[0]):
+            policy[i] = self.mask_probs_by_state(policy[i], states[i])
+        return policy, value
 
     def save_checkpoint(self, folder, filename):
-        pass    # TODO
+        filepath = os.path.join(folder, filename)
+        if not os.path.exists(folder):
+            printl(f'Checkpoint dir does not exist - making directory {folder}')
+            os.mkdir(folder)
+        else:
+            printl('Checkpoint dir exists')
+        pkl.dump(self.nnet, open(filepath, 'w+'))
 
     def load_checkpoint(self, folder, filename):
-        pass    # TODO
+        filepath = os.path.join(folder, filename)
+        if not os.path.exists(filepath):
+            raise(f'No model in path {filepath}')
+        self.nnet = pkl.load(open(filepath, 'r+'))
+
+    def set_weights(self, weights):
+        self.nnet.set_weights(weights)
+
+    def get_weights(self):
+        return self.nnet.get_weights()
 
     @staticmethod
     def state_to_nnet_input(state):
@@ -74,21 +111,10 @@ class NnetBeckModel(Model):
             nnet_input[i][2] = np.full(state.shape, is_player_ones_turn)
         return nnet_input
     
-    def get_policy_from_logits(self, logits, state):
-        probs = sigmoid(logits)
+    def mask_probs_by_state(self, probs, state):
+        # probs = sigmoid(logits)
         probs[~self.game.get_allowed_actions(state)] = 0
         probs = probs / np.sum(probs)
         return probs
-    
-    def eval_net(self, state):
-        nnet_input = self.state_to_nnet_input(state)
-        nnet_output = self.nnet.predict(nnet_input)
-        value = nnet_output[0][0]
-        policy = self.get_policy_from_logits(nnet_output[1][0], state)
-        return policy, value 
-    
-    def get_policy(self, state):
-        return self.eval_net(state)[0]
-    
-    def get_value(self, state):
-        return self.eval_net(state)[1]
+
+ExportedModel = NnetBeckModel

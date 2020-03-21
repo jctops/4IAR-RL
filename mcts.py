@@ -60,8 +60,8 @@ class MCTS():
             probs[best_action] = 1
             return probs
         else:
-            counts = np.power(counts, 1./temperature)
-            probs /= counts.sum()
+            probs = np.power(counts, 1./temperature)
+            probs /= probs.sum()
             return probs
 
     def parallel_iterate(self, canonical_state):

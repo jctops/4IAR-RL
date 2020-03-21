@@ -1,10 +1,14 @@
 # Global imports
+import numpy as np
 import tensorflow as tf
+my_devices = tf.config.experimental.list_physical_devices(device_type='CPU')
+tf.config.experimental.set_visible_devices(devices= my_devices, device_type='CPU')
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.layers import Dense, Conv2D, BatchNormalization, LeakyReLU, add, Flatten, Input
 from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.regularizers import l2
-import numpy as np
+from tensorflow.python.framework.ops import disable_eager_execution
+disable_eager_execution()
 
 # Local imports
 import beck.config as config
@@ -17,14 +21,16 @@ def conv_layer(x, nnet_args):
     x = Conv2D(
         filters = nnet_args['CONV_FILTERS'],
         kernel_size = nnet_args['CONV_KERNEL_SIZE'],
-        data_format = 'channels_first',
+        # data_format = 'channels_first',
+        data_format = 'channels_last',
         padding = 'same',
         use_bias = False,
         activation = 'linear',
         kernel_regularizer = l2(nnet_args['REG_CONST'])
     )(x)
 
-    x = BatchNormalization(axis = 1)(x)
+    # x = BatchNormalization(axis = 1)(x)
+    x = BatchNormalization(axis = -1)(x)
     x = LeakyReLU()(x)
 
     return x
@@ -35,27 +41,27 @@ def residual_layer(x, nnet_args):
     x = Conv2D(
         filters = nnet_args['RES_FILTERS'],
         kernel_size = nnet_args['RES_KERNEL_SIZE'],
-        data_format = 'channels_first',
+        data_format = 'channels_last',
         padding = 'same',
         use_bias = False,
         activation = 'linear',
         kernel_regularizer = l2(nnet_args['REG_CONST'])
     )(x)
 
-    x = BatchNormalization(axis = 1)(x)
+    x = BatchNormalization(axis = -1)(x)
     x = LeakyReLU()(x)
 
     x = Conv2D(
         filters = nnet_args['RES_FILTERS'],
         kernel_size = nnet_args['RES_KERNEL_SIZE'],
-        data_format = 'channels_first',
+        data_format = 'channels_last',
         padding = 'same',
         use_bias = False,
         activation = 'linear',
         kernel_regularizer = l2(nnet_args['REG_CONST'])
     )(x)
 
-    x = BatchNormalization(axis = 1)(x)
+    x = BatchNormalization(axis = -1)(x)
     x = add([input_block, x])
     x = LeakyReLU()(x)
 
@@ -65,14 +71,14 @@ def policy_head(x, nnet_args):
     x = Conv2D(
         filters = nnet_args['POLICY_HEAD_FILTERS'],
         kernel_size = nnet_args['POLICY_HEAD_KERNEL_SIZE'],
-        data_format = 'channels_first',
+        data_format = 'channels_last',
         padding = 'same',
         use_bias = False,
         activation = 'linear',
         kernel_regularizer = l2(nnet_args['REG_CONST'])
     )(x)
 
-    x = BatchNormalization(axis = 1)(x)
+    x = BatchNormalization(axis = -1)(x)
     x = LeakyReLU()(x)
 
     x = Flatten()(x)
@@ -80,7 +86,7 @@ def policy_head(x, nnet_args):
     x = Dense(
         np.product(nnet_args['OUTPUT_DIM']),
         use_bias = False,
-        activation = 'linear',
+        activation = 'softmax',
         kernel_regularizer = l2(nnet_args['REG_CONST']),
         name = 'policy_head'
     )(x)
@@ -91,14 +97,14 @@ def value_head(x, nnet_args):
     x = Conv2D(
         filters = nnet_args['VALUE_HEAD_FILTERS'],
         kernel_size = nnet_args['VALUE_HEAD_KERNEL_SIZE'],
-        data_format = 'channels_first',
+        data_format = 'channels_last',
         padding = 'same',
         use_bias = False,
         activation = 'linear',
         kernel_regularizer = l2(nnet_args['REG_CONST'])
     )(x)
 
-    x = BatchNormalization(axis = 1)(x)
+    x = BatchNormalization(axis = -1)(x)
     x = LeakyReLU()(x)
 
     x = Flatten()(x)

@@ -1,3 +1,38 @@
+MCTS_ARGS = {
+    'parallel_threads': 1,
+    'cpuct': 1,
+    'mcts_iterations': 40
+}
+
+SELFPLAY_ARGS = {
+    'DETERMINISTIC_PLAY': 9,
+    'GAMES_PER_SUBMISSION': 3,
+}
+
+TRAINING_ARGS = {
+    'MAX_MEMORY_SIZE': int(1e9),
+    'MAX_EXAMPLES_PER_RECEIVE': 1,
+    'TRAINING_SAMPLE_SIZE': 4096,
+    'BATCH_SIZE': 128,
+    'EPOCHS': 2,
+    'EVAL_GAMES': 40,
+    'PROMOTION_THRESHOLD': 0.55,
+    'PREVIOUS_CHECKPOINT': None,
+    'TRAINING_ROUNDS_PER_EVAL': 10,
+    'CHECKPOINT_DIR': '',
+    'CHECKPOINT_PREFIX': 'model_ex1_',
+}
+
+MAIN_ARGS = {
+    'NO_OF_GPUS': 4,
+    'USE_GPUS': False,
+    'NUM_OF_SELFPLAY_PROCESSES': 3,
+    'RUNNING_TIME': 1000
+}
+
+
+
+
 #################################
 ##  Beck data (game_state.py)  ##
 #################################
@@ -9,11 +44,11 @@ k = 4
 #####################################################
 ##  MCTS constants (parallel_mcts_nothreading.py)  ##
 #####################################################
-mcts_args = {
-    'parallel_threads': 1,
-    'cpuct': 1,
-    'mcts_iterations': 40
-}
+# MCTS_ARGS = {
+#     'parallel_threads': 1,
+#     'cpuct': 1,
+#     'mcts_iterations': 40
+# }
 
 ALPHA = 0.3
 C_PUCT = 3.0
@@ -38,7 +73,7 @@ STARTING_MEMORY_SIZE = 40000
 ####################################
 ## Network constants (network.py) ##
 ####################################
-nnet_args = {
+NNET_ARGS = {
     'REG_CONST': 0.0001,
     'LEARNING_RATE': 0.2,
     'MOMENTUM': 0.9,

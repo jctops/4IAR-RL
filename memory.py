@@ -6,6 +6,9 @@ class Memory():
         self.memory_size = initial_mem_size
         self.memory_bank = deque(maxlen = self.memory_size)
 
+    def get_memory_usage(self):
+        return len(self.memory_bank), self.memory_size
+
     def clear_memory_bank(self):
         self.memory_bank = deque(maxlen = self.memory_size)
 

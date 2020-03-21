@@ -7,7 +7,6 @@ import tensorflow as tf
 # tf.debugging.set_log_device_placement(True)
 import tensorflow as tf
 from tensorflow.python.framework.ops import disable_eager_execution
-
 disable_eager_execution()
 
 # Local imports
@@ -15,7 +14,7 @@ from ai_player import AIPlayer
 from beck.beck_display import BeckDisplay
 from beck.beck_game import BeckGame
 from beck.beck_model import RandomBeckModel, NnetBeckModel
-from beck.config import mcts_args, nnet_args
+from beck.config import MCTS_ARGS, NNET_ARGS
 from mcts import MCTS
 from stage import Stage
 
@@ -24,11 +23,11 @@ import time
 game = BeckGame(m=4, n=9, k=4)
 
 start_time = time.time()
-model1, model2 = NnetBeckModel(game, nnet_args), NnetBeckModel(game, nnet_args)
+model1, model2 = NnetBeckModel(game, NNET_ARGS), NnetBeckModel(game, NNET_ARGS)
 # model1, model2 = RandomBeckModel(game), RandomBeckModel(game)
 trials = 100
 for _ in range(trials):
-    mcts1, mcts2 = MCTS(game, model1, mcts_args), MCTS(game, model1, mcts_args)
+    mcts1, mcts2 = MCTS(game, model1, MCTS_ARGS), MCTS(game, model1, MCTS_ARGS)
     players = [AIPlayer(mcts1, True), AIPlayer(mcts2, True)]
 
     #display = BeckDisplay(game, ['Rebecca', 'Rebecca'])
