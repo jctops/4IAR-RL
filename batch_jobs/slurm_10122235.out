@@ -1,0 +1,185 @@
+no change     /home/jt3974/miniconda3/condabin/conda
+no change     /home/jt3974/miniconda3/bin/conda
+no change     /home/jt3974/miniconda3/bin/conda-env
+no change     /home/jt3974/miniconda3/bin/activate
+no change     /home/jt3974/miniconda3/bin/deactivate
+no change     /home/jt3974/miniconda3/etc/profile.d/conda.sh
+no change     /home/jt3974/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/jt3974/miniconda3/shell/condabin/Conda.psm1
+no change     /home/jt3974/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/jt3974/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/jt3974/miniconda3/etc/profile.d/conda.csh
+no change     /home/jt3974/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+‘/home/jt3974/code/4IAR-RL/classes’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes’
+‘/home/jt3974/code/4IAR-RL/classes/statehandler.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/statehandler.py’
+‘/home/jt3974/code/4IAR-RL/classes/README.md’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/README.md’
+‘/home/jt3974/code/4IAR-RL/classes/main.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/main.py’
+‘/home/jt3974/code/4IAR-RL/classes/ai_player.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/ai_player.py’
+‘/home/jt3974/code/4IAR-RL/classes/gameplay.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/gameplay.py’
+‘/home/jt3974/code/4IAR-RL/classes/memory.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/memory.py’
+‘/home/jt3974/code/4IAR-RL/classes/selfplay_process.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py’
+‘/home/jt3974/code/4IAR-RL/classes/model.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/model.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck’
+‘/home/jt3974/code/4IAR-RL/classes/beck/beck_config.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/beck_config.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/loss.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/loss.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/__pycache__’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/beck_game.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/__pycache__/beck_game.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/beck_model.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/__pycache__/beck_model.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/config.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/__pycache__/config.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/loss.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/__pycache__/loss.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/nnet_construction.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/__pycache__/nnet_construction.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/beck_model.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/beck_model.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/nnet_construction.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/nnet_construction.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/config.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/config.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/beck_display.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/beck_display.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/beck_game.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/beck/beck_game.py’
+‘/home/jt3974/code/4IAR-RL/classes/stage.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/stage.py’
+‘/home/jt3974/code/4IAR-RL/classes/mcts.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/mcts.py’
+‘/home/jt3974/code/4IAR-RL/classes/run_training.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/run_training.py’
+‘/home/jt3974/code/4IAR-RL/classes/utils.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/utils.py’
+‘/home/jt3974/code/4IAR-RL/classes/display.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/display.py’
+‘/home/jt3974/code/4IAR-RL/classes/lazy_loader.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/lazy_loader.py’
+‘/home/jt3974/code/4IAR-RL/classes/game.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/game.py’
+‘/home/jt3974/code/4IAR-RL/classes/training_process.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/training_process.py’
+‘/home/jt3974/code/4IAR-RL/classes/config.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10122235/classes/config.py’
+[2020-06-04 16:13:15.668221] Main: Program beginning
+[2020-06-04 16:13:15.668412] Main: Setting up processes
+[2020-06-04 16:13:15.736408] Main: Training process set up
+[2020-06-04 16:13:18.739368] Main: Selfplay processes set up
+[2020-06-04 16:13:18.739408] Main: Processes created
+[2020-06-04 16:13:18.739423] Main: Starting training process
+[2020-06-04 16:13:18.795130] Main: Starting selfplay processes
+[2020-06-04 16:13:18.801870] Main: Main process sleeping until kill time
+[2020-06-04 16:13:19.034746] SP2: Selfplay process started
+[2020-06-04 16:13:19.034746] SP1: Selfplay process started
+[2020-06-04 16:13:19.034761] SP0: Selfplay process started
+[2020-06-04 16:13:19.034801] SP2: CUDA_VISIBLE_DEVICES set to 3
+[2020-06-04 16:13:19.034805] SP1: CUDA_VISIBLE_DEVICES set to 2
+[2020-06-04 16:13:19.034808] SP0: CUDA_VISIBLE_DEVICES set to 1
+[2020-06-04 16:13:19.035533] TP0: Training process started
+[2020-06-04 16:13:19.035581] TP0: CUDA_VISIBLE_DEVICES set to 0
+[2020-06-04 16:13:47.023067] SP1: Setting seed to 3894321529
+[2020-06-04 16:13:47.023447] SP2: Setting seed to 1175453696
+[2020-06-04 16:13:47.025247] SP0: Setting seed to 4061134848
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+[2020-06-04 16:13:47.931299] TP0: Setting seed to 3359861386
+[2020-06-04 16:13:47.931806] TP0: Outputting inital weights
+2020-06-04 16:13:47.932765: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[2020-06-04 16:13:47.944146] SP1: Set up model and searches
+[2020-06-04 16:13:47.944412] SP0: Set up model and searches
+[2020-06-04 16:13:47.946257] SP2: Set up model and searches
+[2020-06-04 16:13:47.959424] Awaiting initial weights
+[2020-06-04 16:13:47.959432] Awaiting initial weights
+[2020-06-04 16:13:47.959440] Awaiting initial weights
+2020-06-04 16:13:48.043047: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2599800000 Hz
+2020-06-04 16:13:48.044094: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2acaab35fe40 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-04 16:13:48.044132: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-04 16:13:48.044323: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+[2020-06-04 16:13:48.796403] TP0: Outputted weights to selfplay processes
+[2020-06-04 16:13:48.803393] SP0: Found initial weights
+[2020-06-04 16:13:48.826290] SP1: Found initial weights
+[2020-06-04 16:13:48.848958] SP2: Found initial weights
+2020-06-04 16:13:48.902376: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-04 16:13:48.918485: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2599800000 Hz
+2020-06-04 16:13:48.919110: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2acef6a659a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-04 16:13:48.919147: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-04 16:13:48.919342: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2020-06-04 16:13:48.922548: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-04 16:13:48.931383: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2599800000 Hz
+2020-06-04 16:13:48.931812: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2b6173872c90 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-04 16:13:48.931833: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-04 16:13:48.931941: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2020-06-04 16:13:48.947035: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-04 16:13:48.955793: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2599800000 Hz
+2020-06-04 16:13:48.956231: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2b3d6f8f8850 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-04 16:13:48.956252: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-04 16:13:48.956363: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+[2020-06-04 16:13:49.520422] SP1: Updated model weights
+[2020-06-04 16:13:49.520930] SP1: Initial weights loaded
+[2020-06-04 16:13:49.521030] SP1: No weights update, continuing
+[2020-06-04 16:13:49.521044] SP1: Starting example submission 1
+[2020-06-04 16:13:49.551857] SP2: Updated model weights
+[2020-06-04 16:13:49.551905] SP2: Initial weights loaded
+[2020-06-04 16:13:49.552000] SP2: No weights update, continuing
+[2020-06-04 16:13:49.552013] SP2: Starting example submission 1
+[2020-06-04 16:13:49.594993] SP0: Updated model weights
+[2020-06-04 16:13:49.595046] SP0: Initial weights loaded
+[2020-06-04 16:13:49.595141] SP0: No weights update, continuing
+[2020-06-04 16:13:49.595154] SP0: Starting example submission 1
+Process SP1:
+Traceback (most recent call last):
+  File "/home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 127, in run
+    self.example_egress.put(self.generate_training_examples())
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 85, in generate_training_examples
+    training_examples += self.execute_episode_with_example_storing()
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 51, in execute_episode_with_example_storing
+    probs = self.searches[current_player - 1].get_probs(canonical_state, temperature=1)
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/mcts.py", line 51, in get_probs
+    self.iterate(canonical_state)
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/mcts.py", line 105, in straight_iterate
+    if epsilon == 0:
+NameError: name 'epsilon' is not defined
+Process SP0:
+Traceback (most recent call last):
+  File "/home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 127, in run
+    self.example_egress.put(self.generate_training_examples())
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 85, in generate_training_examples
+    training_examples += self.execute_episode_with_example_storing()
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 51, in execute_episode_with_example_storing
+    probs = self.searches[current_player - 1].get_probs(canonical_state, temperature=1)
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/mcts.py", line 51, in get_probs
+    self.iterate(canonical_state)
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/mcts.py", line 105, in straight_iterate
+    if epsilon == 0:
+NameError: name 'epsilon' is not defined
+Process SP2:
+Traceback (most recent call last):
+  File "/home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 127, in run
+    self.example_egress.put(self.generate_training_examples())
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 85, in generate_training_examples
+    training_examples += self.execute_episode_with_example_storing()
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/selfplay_process.py", line 51, in execute_episode_with_example_storing
+    probs = self.searches[current_player - 1].get_probs(canonical_state, temperature=1)
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/mcts.py", line 51, in get_probs
+    self.iterate(canonical_state)
+  File "/scratch/jt3974/4IAR-RL/run-10122235/classes/mcts.py", line 105, in straight_iterate
+    if epsilon == 0:
+NameError: name 'epsilon' is not defined
+slurmstepd: error: *** JOB 10122235 ON gpu-07 CANCELLED AT 2020-06-04T16:15:49 ***

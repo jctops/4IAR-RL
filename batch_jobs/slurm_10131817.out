@@ -1,0 +1,72 @@
+no change     /home/jt3974/miniconda3/condabin/conda
+no change     /home/jt3974/miniconda3/bin/conda
+no change     /home/jt3974/miniconda3/bin/conda-env
+no change     /home/jt3974/miniconda3/bin/activate
+no change     /home/jt3974/miniconda3/bin/deactivate
+no change     /home/jt3974/miniconda3/etc/profile.d/conda.sh
+no change     /home/jt3974/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/jt3974/miniconda3/shell/condabin/Conda.psm1
+no change     /home/jt3974/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/jt3974/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/jt3974/miniconda3/etc/profile.d/conda.csh
+no change     /home/jt3974/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+‘/home/jt3974/code/4IAR-RL/classes’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes’
+‘/home/jt3974/code/4IAR-RL/classes/statehandler.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/statehandler.py’
+‘/home/jt3974/code/4IAR-RL/classes/README.md’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/README.md’
+‘/home/jt3974/code/4IAR-RL/classes/main.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/main.py’
+‘/home/jt3974/code/4IAR-RL/classes/ai_player.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/ai_player.py’
+‘/home/jt3974/code/4IAR-RL/classes/gameplay.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/gameplay.py’
+‘/home/jt3974/code/4IAR-RL/classes/memory.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/memory.py’
+‘/home/jt3974/code/4IAR-RL/classes/selfplay_process.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/selfplay_process.py’
+‘/home/jt3974/code/4IAR-RL/classes/model.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/model.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck’
+‘/home/jt3974/code/4IAR-RL/classes/beck/beck_config.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/beck_config.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/loss.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/loss.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/__pycache__’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/beck_game.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/__pycache__/beck_game.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/beck_model.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/__pycache__/beck_model.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/config.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/__pycache__/config.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/loss.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/__pycache__/loss.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/nnet_construction.cpython-37.pyc’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/__pycache__/nnet_construction.cpython-37.pyc’
+‘/home/jt3974/code/4IAR-RL/classes/beck/beck_model.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/beck_model.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/nnet_construction.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/nnet_construction.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/config.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/config.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/beck_display.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/beck_display.py’
+‘/home/jt3974/code/4IAR-RL/classes/beck/beck_game.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/beck/beck_game.py’
+‘/home/jt3974/code/4IAR-RL/classes/stage.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/stage.py’
+‘/home/jt3974/code/4IAR-RL/classes/mcts.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/mcts.py’
+‘/home/jt3974/code/4IAR-RL/classes/run_training.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/run_training.py’
+‘/home/jt3974/code/4IAR-RL/classes/utils.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/utils.py’
+‘/home/jt3974/code/4IAR-RL/classes/display.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/display.py’
+‘/home/jt3974/code/4IAR-RL/classes/lazy_loader.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/lazy_loader.py’
+‘/home/jt3974/code/4IAR-RL/classes/game.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/game.py’
+‘/home/jt3974/code/4IAR-RL/classes/training_process.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/training_process.py’
+‘/home/jt3974/code/4IAR-RL/classes/config.py’ -> ‘/scratch/jt3974/4IAR-RL/run-10131817/classes/config.py’
+[2020-06-05 18:00:42.020094] Main: Program beginning
+[2020-06-05 18:00:42.020200] Main: Setting up processes
+Traceback (most recent call last):
+  File "/scratch/jt3974/4IAR-RL/run-10131817/classes/run_training.py", line 81, in <module>
+    m, n, k)
+  File "/scratch/jt3974/4IAR-RL/run-10131817/classes/run_training.py", line 38, in set_up_processes
+    training_args = training_args,
+TypeError: __init__() missing 1 required positional argument: 'mcts_args'

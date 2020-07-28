@@ -1,0 +1,1705 @@
+no change     /home/jt3974/miniconda3/condabin/conda
+no change     /home/jt3974/miniconda3/bin/conda
+no change     /home/jt3974/miniconda3/bin/conda-env
+no change     /home/jt3974/miniconda3/bin/activate
+no change     /home/jt3974/miniconda3/bin/deactivate
+no change     /home/jt3974/miniconda3/etc/profile.d/conda.sh
+no change     /home/jt3974/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/jt3974/miniconda3/shell/condabin/Conda.psm1
+no change     /home/jt3974/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/jt3974/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/jt3974/miniconda3/etc/profile.d/conda.csh
+no change     /home/jt3974/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+'/home/jt3974/code/4IAR-RL/classes' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes'
+'/home/jt3974/code/4IAR-RL/classes/statehandler.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/statehandler.py'
+'/home/jt3974/code/4IAR-RL/classes/README.md' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/README.md'
+'/home/jt3974/code/4IAR-RL/classes/main.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/main.py'
+'/home/jt3974/code/4IAR-RL/classes/ai_player.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/ai_player.py'
+'/home/jt3974/code/4IAR-RL/classes/gameplay.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/gameplay.py'
+'/home/jt3974/code/4IAR-RL/classes/memory.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/memory.py'
+'/home/jt3974/code/4IAR-RL/classes/selfplay_process.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/selfplay_process.py'
+'/home/jt3974/code/4IAR-RL/classes/model.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/model.py'
+'/home/jt3974/code/4IAR-RL/classes/beck' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck'
+'/home/jt3974/code/4IAR-RL/classes/beck/beck_config.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/beck_config.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/loss.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/loss.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/__pycache__'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/beck_game.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/__pycache__/beck_game.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/beck_model.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/__pycache__/beck_model.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/config.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/__pycache__/config.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/loss.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/__pycache__/loss.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/nnet_construction.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/__pycache__/nnet_construction.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/beck_model.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/beck_model.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/nnet_construction.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/nnet_construction.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/config.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/config.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/beck_display.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/beck_display.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/beck_game.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/beck_game.py'
+'/home/jt3974/code/4IAR-RL/classes/stage.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/stage.py'
+'/home/jt3974/code/4IAR-RL/classes/mcts.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/mcts.py'
+'/home/jt3974/code/4IAR-RL/classes/run_training.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/run_training.py'
+'/home/jt3974/code/4IAR-RL/classes/utils.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/utils.py'
+'/home/jt3974/code/4IAR-RL/classes/display.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/display.py'
+'/home/jt3974/code/4IAR-RL/classes/lazy_loader.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/lazy_loader.py'
+'/home/jt3974/code/4IAR-RL/classes/game.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/game.py'
+'/home/jt3974/code/4IAR-RL/classes/training_process.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/training_process.py'
+'/home/jt3974/code/4IAR-RL/classes/config.py' -> '/scratch/jt3974/4IAR-RL/run-10101622/classes/config.py'
+[2020-06-03 17:12:25.068268] Main: Program beginning
+[2020-06-03 17:12:25.068321] Main: Setting up processes
+[2020-06-03 17:12:25.075938] Main: Training process set up
+[2020-06-03 17:12:28.079290] Main: Selfplay processes set up
+[2020-06-03 17:12:28.079351] Main: Processes created
+[2020-06-03 17:12:28.079380] Main: Starting training process
+[2020-06-03 17:12:28.084268] Main: Starting selfplay processes
+[2020-06-03 17:12:28.092117] Main: Main process sleeping until kill time
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2020-06-03 17:12:32.084273: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-03 17:12:32.094426: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2195025000 Hz
+2020-06-03 17:12:32.094855: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558ff0ce0ed0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-03 17:12:32.094876: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-03 17:12:32.095010: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2020-06-03 17:12:32.818350: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-03 17:12:32.829837: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2195025000 Hz
+2020-06-03 17:12:32.830367: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x559d72bbc3a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-03 17:12:32.830396: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-03 17:12:32.830530: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2020-06-03 17:12:32.850936: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-03 17:12:32.862054: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2195025000 Hz
+2020-06-03 17:12:32.862549: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a1ab0713a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-03 17:12:32.862574: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-03 17:12:32.862711: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2020-06-03 17:12:32.865050: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-03 17:12:32.876197: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2195025000 Hz
+2020-06-03 17:12:32.876681: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56311aac6230 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-03 17:12:32.876706: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-03 17:12:32.876839: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+[2020-06-03 17:12:28.325321] SP0: Selfplay process started
+[2020-06-03 17:12:28.325365] SP0: CUDA_VISIBLE_DEVICES set to 1
+[2020-06-03 17:12:31.177186] SP0: Setting seed to 2186178065
+[2020-06-03 17:12:32.092708] SP0: Set up model and searches
+[2020-06-03 17:12:32.092727] Awaiting initial weights
+[2020-06-03 17:12:32.715823] SP0: Found initial weights
+[2020-06-03 17:12:33.604818] SP0: Updated model weights
+[2020-06-03 17:12:33.604847] SP0: Initial weights loaded
+[2020-06-03 17:12:33.604964] SP0: No weights update, continuing
+[2020-06-03 17:12:33.604974] SP0: Starting example submission 1
+[2020-06-03 17:12:42.557556] SP0: Episode 1 completed in 8.95s with25 actions and generating 100 examples.
+Actions taken were 6, 25, 14, 5, 26, 18, 12, 11, 9, 17, 7, 0, 1, 2, 3, 4, 24, 16, 13, 34, 23, 27, 29, 32, 15.
+Result was P1 wins
+[[2. 1. 2. 1. 2. 2. 1. 1. 0.]
+ [1. 0. 2. 1. 1. 1. 1. 2. 2.]
+ [2. 0. 0. 0. 0. 1. 1. 2. 1.]
+ [2. 0. 1. 0. 0. 2. 0. 2. 0.]]
+[2020-06-03 17:12:49.923552] SP0: Episode 2 completed in 7.36s with22 actions and generating 88 examples.
+Actions taken were 16, 5, 17, 25, 9, 0, 26, 11, 1, 12, 14, 6, 7, 18, 2, 24, 13, 23, 27, 34, 29, 22.
+Result was P2 wins
+[[2. 1. 1. 0. 0. 2. 2. 1. 0.]
+ [1. 0. 2. 2. 1. 1. 0. 1. 1.]
+ [2. 0. 0. 0. 2. 2. 2. 2. 1.]
+ [1. 0. 1. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:12:56.767414] SP0: Episode 3 completed in 6.82s with21 actions and generating 84 examples.
+Actions taken were 2, 15, 12, 0, 25, 6, 11, 5, 34, 14, 17, 7, 26, 1, 18, 9, 13, 24, 16, 23, 10.
+Result was P1 wins
+[[2. 2. 1. 0. 0. 2. 2. 2. 0.]
+ [2. 1. 1. 1. 1. 2. 2. 1. 1.]
+ [1. 0. 0. 0. 0. 2. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:12:56.768005] SP0: Finished episode generation 1 with 272 examples - looking to submit examples
+[2020-06-03 17:12:56.789395] SP0: Finished example submission 1
+[2020-06-03 17:12:56.789545] SP0: No weights update, continuing
+[2020-06-03 17:12:56.789554] SP0: Starting example submission 2
+[2020-06-03 17:13:03.852094] SP0: Episode 4 completed in 7.04s with22 actions and generating 88 examples.
+Actions taken were 6, 5, 2, 25, 0, 18, 26, 17, 11, 12, 14, 7, 1, 3, 4, 8, 9, 10, 13, 16, 24, 34.
+Result was P2 wins
+[[1. 1. 1. 2. 1. 2. 1. 2. 2.]
+ [1. 2. 1. 2. 1. 1. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 0. 1. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:13:09.511127] SP0: Episode 5 completed in 5.66s with18 actions and generating 72 examples.
+Actions taken were 4, 6, 9, 12, 18, 25, 17, 7, 11, 14, 26, 0, 1, 2, 3, 5, 13, 8.
+Result was P2 wins
+[[2. 1. 2. 1. 1. 2. 2. 2. 2.]
+ [1. 0. 1. 2. 1. 2. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:13:15.805309] SP0: Episode 6 completed in 6.29s with19 actions and generating 76 examples.
+Actions taken were 11, 6, 17, 7, 26, 24, 5, 12, 9, 14, 0, 1, 2, 3, 4, 25, 18, 16, 27.
+Result was P1 wins
+[[1. 2. 1. 2. 1. 1. 2. 2. 0.]
+ [1. 0. 1. 2. 0. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 0. 2. 2. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:13:15.805905] SP0: Finished episode generation 2 with 236 examples - looking to submit examples
+[2020-06-03 17:13:15.829043] SP0: Finished example submission 2
+[2020-06-03 17:13:15.833817] SP0: No weights update, continuing
+[2020-06-03 17:13:15.833834] SP0: Starting example submission 3
+[2020-06-03 17:13:20.322872] SP0: Episode 7 completed in 4.47s with14 actions and generating 56 examples.
+Actions taken were 25, 16, 7, 0, 18, 12, 17, 11, 1, 14, 6, 26, 2, 13.
+Result was P2 wins
+[[2. 1. 1. 0. 0. 0. 1. 1. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:13:27.406208] SP0: Episode 8 completed in 7.06s with22 actions and generating 88 examples.
+Actions taken were 35, 9, 0, 25, 11, 17, 14, 12, 5, 6, 26, 7, 1, 18, 2, 3, 4, 24, 13, 16, 23, 34.
+Result was P2 wins
+[[1. 1. 1. 2. 1. 1. 2. 2. 0.]
+ [2. 0. 1. 2. 1. 1. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 1. 2. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 1.]]
+[2020-06-03 17:13:33.055510] SP0: Episode 9 completed in 5.65s with18 actions and generating 72 examples.
+Actions taken were 16, 11, 9, 26, 17, 25, 18, 6, 12, 14, 7, 0, 5, 1, 24, 2, 13, 3.
+Result was P2 wins
+[[2. 2. 2. 2. 0. 1. 2. 1. 0.]
+ [1. 0. 2. 1. 1. 2. 0. 1. 1.]
+ [1. 0. 0. 0. 0. 0. 1. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:13:33.055930] SP0: Finished episode generation 3 with 216 examples - looking to submit examples
+[2020-06-03 17:13:33.061198] SP0: Finished example submission 3
+[2020-06-03 17:13:33.064715] SP0: No weights update, continuing
+[2020-06-03 17:13:33.064730] SP0: Starting example submission 4
+[2020-06-03 17:13:38.039491] SP0: Episode 10 completed in 4.97s with15 actions and generating 60 examples.
+Actions taken were 21, 12, 26, 17, 9, 7, 18, 25, 5, 11, 14, 6, 0, 1, 27.
+Result was P1 wins
+[[1. 2. 0. 0. 0. 1. 2. 2. 0.]
+ [1. 0. 2. 2. 0. 1. 0. 0. 2.]
+ [1. 0. 0. 1. 0. 0. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:13:44.629666] SP0: Episode 11 completed in 6.59s with20 actions and generating 80 examples.
+Actions taken were 14, 17, 26, 7, 2, 25, 12, 11, 6, 0, 1, 3, 4, 5, 8, 9, 10, 18, 16, 27.
+Result was P2 wins
+[[2. 1. 1. 2. 1. 2. 1. 2. 1.]
+ [2. 1. 2. 1. 0. 1. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:13:49.184649] SP0: Episode 12 completed in 4.53s with14 actions and generating 56 examples.
+Actions taken were 2, 11, 26, 5, 9, 12, 6, 24, 0, 14, 17, 7, 25, 13.
+Result was P2 wins
+[[1. 0. 1. 0. 0. 2. 1. 2. 0.]
+ [1. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:13:49.207023] SP0: Finished episode generation 4 with 196 examples - looking to submit examples
+[2020-06-03 17:13:49.207873] SP0: Finished example submission 4
+[2020-06-03 17:13:49.211959] SP0: No weights update, continuing
+[2020-06-03 17:13:49.211975] SP0: Starting example submission 5
+[2020-06-03 17:13:52.806956] SP0: Episode 13 completed in 3.59s with11 actions and generating 44 examples.
+Actions taken were 26, 0, 14, 7, 11, 16, 17, 25, 12, 6, 13.
+Result was P1 wins
+[[2. 0. 0. 0. 0. 0. 2. 2. 0.]
+ [0. 0. 1. 1. 1. 1. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:13:56.397178] SP0: Episode 14 completed in 3.59s with11 actions and generating 44 examples.
+Actions taken were 14, 21, 26, 25, 18, 5, 11, 6, 12, 17, 13.
+Result was P1 wins
+[[0. 0. 0. 0. 0. 2. 2. 0. 0.]
+ [0. 0. 1. 1. 1. 1. 0. 0. 2.]
+ [1. 0. 0. 2. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:14:00.944788] SP0: Episode 15 completed in 4.55s with14 actions and generating 56 examples.
+Actions taken were 7, 0, 23, 17, 5, 18, 25, 14, 1, 12, 6, 11, 26, 13.
+Result was P2 wins
+[[2. 1. 0. 0. 0. 1. 1. 1. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 1. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:14:00.945143] SP0: Finished episode generation 5 with 144 examples - looking to submit examples
+[2020-06-03 17:14:00.955040] SP0: Finished example submission 5
+[2020-06-03 17:14:00.957673] SP0: No weights update, continuing
+[2020-06-03 17:14:00.957689] SP0: Starting example submission 6
+[2020-06-03 17:14:06.282606] SP0: Episode 16 completed in 5.32s with17 actions and generating 68 examples.
+Actions taken were 21, 17, 2, 25, 0, 18, 14, 12, 9, 11, 6, 26, 7, 5, 1, 13, 3.
+Result was P1 wins
+[[1. 1. 1. 1. 0. 2. 1. 1. 0.]
+ [1. 0. 2. 2. 2. 1. 0. 0. 2.]
+ [2. 0. 0. 1. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:14:13.812092] SP0: Episode 17 completed in 7.5s with23 actions and generating 92 examples.
+Actions taken were 14, 11, 26, 7, 5, 18, 6, 12, 16, 17, 0, 1, 2, 25, 9, 3, 24, 34, 13, 23, 29, 27, 21.
+Result was P1 wins
+[[1. 2. 1. 2. 0. 1. 1. 2. 0.]
+ [1. 0. 2. 2. 1. 1. 0. 1. 2.]
+ [2. 0. 0. 1. 0. 2. 1. 2. 1.]
+ [2. 0. 1. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:14:21.736762] SP0: Episode 18 completed in 7.92s with24 actions and generating 96 examples.
+Actions taken were 32, 23, 11, 14, 7, 5, 6, 12, 18, 17, 26, 0, 25, 1, 9, 24, 2, 16, 13, 29, 34, 27, 10, 15.
+Result was P2 wins
+[[2. 2. 1. 0. 0. 2. 1. 1. 0.]
+ [1. 1. 1. 2. 1. 2. 2. 2. 2.]
+ [1. 0. 0. 0. 0. 2. 2. 1. 1.]
+ [2. 0. 2. 0. 0. 1. 0. 1. 0.]]
+[2020-06-03 17:14:21.737348] SP0: Finished episode generation 6 with 256 examples - looking to submit examples
+[2020-06-03 17:14:21.759239] SP0: Finished example submission 6
+[2020-06-03 17:14:21.764073] SP0: No weights update, continuing
+[2020-06-03 17:14:21.764089] SP0: Starting example submission 7
+[2020-06-03 17:14:26.759928] SP0: Episode 19 completed in 5.0s with15 actions and generating 60 examples.
+Actions taken were 16, 7, 0, 25, 14, 12, 11, 17, 23, 6, 26, 1, 5, 18, 32.
+Result was P1 wins
+[[1. 2. 0. 0. 0. 1. 2. 2. 0.]
+ [0. 0. 1. 2. 0. 1. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 1. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:14:31.003763] SP0: Episode 20 completed in 4.24s with13 actions and generating 52 examples.
+Actions taken were 32, 28, 11, 17, 6, 0, 12, 1, 14, 26, 7, 2, 13.
+Result was P1 wins
+[[2. 2. 2. 0. 0. 0. 1. 1. 0.]
+ [0. 0. 1. 1. 1. 1. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2.]
+ [0. 2. 0. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:14:37.998654] SP0: Episode 21 completed in 6.99s with22 actions and generating 88 examples.
+Actions taken were 2, 5, 17, 12, 14, 25, 26, 34, 7, 11, 6, 0, 1, 3, 4, 8, 18, 24, 9, 13, 16, 10.
+Result was P2 wins
+[[2. 1. 1. 2. 1. 2. 1. 1. 2.]
+ [1. 2. 2. 2. 2. 1. 0. 1. 1.]
+ [1. 0. 0. 0. 0. 0. 2. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:14:37.999189] SP0: Finished episode generation 7 with 200 examples - looking to submit examples
+[2020-06-03 17:14:38.008559] SP0: Finished example submission 7
+[2020-06-03 17:14:38.012580] SP0: No weights update, continuing
+[2020-06-03 17:14:38.012596] SP0: Starting example submission 8
+[2020-06-03 17:14:45.924229] SP0: Episode 22 completed in 7.91s with25 actions and generating 100 examples.
+Actions taken were 25, 6, 12, 14, 17, 5, 7, 16, 11, 26, 0, 1, 2, 3, 4, 8, 18, 9, 24, 13, 23, 27, 34, 29, 22.
+Result was P1 wins
+[[1. 2. 1. 2. 1. 2. 2. 1. 2.]
+ [2. 0. 1. 1. 2. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 1. 1. 1. 1. 2.]
+ [2. 0. 2. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:14:49.866754] SP0: Episode 23 completed in 3.94s with12 actions and generating 48 examples.
+Actions taken were 28, 26, 7, 12, 0, 14, 6, 11, 9, 17, 1, 13.
+Result was P2 wins
+[[1. 1. 0. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 2. 2. 2. 2. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2.]
+ [0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:14:59.029835] SP0: Episode 24 completed in 9.14s with30 actions and generating 120 examples.
+Actions taken were 30, 11, 12, 7, 26, 16, 5, 17, 6, 14, 0, 1, 2, 3, 4, 8, 25, 18, 9, 13, 24, 23, 29, 27, 34, 32, 21, 10, 22, 15.
+Result was P2 wins
+[[1. 2. 1. 2. 1. 1. 1. 2. 2.]
+ [1. 2. 2. 1. 2. 2. 2. 2. 2.]
+ [2. 0. 0. 1. 1. 2. 1. 1. 1.]
+ [2. 0. 1. 1. 0. 2. 0. 1. 0.]]
+[2020-06-03 17:14:59.030553] SP0: Finished episode generation 8 with 268 examples - looking to submit examples
+[2020-06-03 17:14:59.051636] SP0: Finished example submission 8
+[2020-06-03 17:14:59.056052] SP0: No weights update, continuing
+[2020-06-03 17:14:59.056067] SP0: Starting example submission 9
+[2020-06-03 17:15:01.270780] SP0: Episode 25 completed in 2.21s with7 actions and generating 28 examples.
+Actions taken were 4, 16, 6, 11, 5, 0, 7.
+Result was P1 wins
+[[2. 0. 0. 0. 1. 1. 1. 1. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 2. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:15:05.513551] SP0: Episode 26 completed in 4.22s with13 actions and generating 52 examples.
+Actions taken were 34, 26, 11, 25, 0, 18, 12, 9, 14, 17, 6, 7, 13.
+Result was P1 wins
+[[1. 0. 0. 0. 0. 0. 1. 2. 0.]
+ [2. 0. 1. 1. 1. 1. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:15:09.132285] SP0: Episode 27 completed in 3.62s with11 actions and generating 44 examples.
+Actions taken were 11, 7, 26, 0, 25, 17, 14, 1, 12, 6, 13.
+Result was P1 wins
+[[2. 2. 0. 0. 0. 0. 2. 2. 0.]
+ [0. 0. 1. 1. 1. 1. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:15:09.132569] SP0: Finished episode generation 9 with 124 examples - looking to submit examples
+[2020-06-03 17:15:09.153306] SP0: Finished example submission 9
+[2020-06-03 17:15:09.155689] SP0: No weights update, continuing
+[2020-06-03 17:15:09.155706] SP0: Starting example submission 10
+[2020-06-03 17:15:13.010791] SP0: Episode 28 completed in 3.85s with12 actions and generating 48 examples.
+Actions taken were 16, 14, 17, 12, 7, 2, 24, 6, 25, 11, 26, 13.
+Result was P2 wins
+[[0. 0. 2. 0. 0. 0. 2. 1. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:15:20.295952] SP0: Episode 29 completed in 7.26s with22 actions and generating 88 examples.
+Actions taken were 25, 0, 7, 24, 17, 14, 5, 12, 11, 6, 26, 1, 2, 3, 4, 8, 18, 9, 13, 16, 23, 32.
+Result was P2 wins
+[[2. 2. 1. 2. 1. 1. 2. 1. 2.]
+ [2. 0. 1. 2. 1. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 1. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0.]]
+[2020-06-03 17:15:25.749759] SP0: Episode 30 completed in 5.45s with17 actions and generating 68 examples.
+Actions taken were 14, 16, 0, 25, 17, 18, 6, 1, 12, 11, 7, 26, 5, 2, 9, 3, 4.
+Result was P1 wins
+[[1. 2. 2. 2. 1. 1. 1. 1. 0.]
+ [1. 0. 2. 1. 0. 1. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:15:25.774654] SP0: Finished episode generation 10 with 204 examples - looking to submit examples
+[2020-06-03 17:15:25.776093] SP0: Finished example submission 10
+[2020-06-03 17:15:25.779751] SP0: No weights update, continuing
+[2020-06-03 17:15:25.779766] SP0: Starting example submission 11
+[2020-06-03 17:15:32.362259] SP0: Episode 31 completed in 6.58s with21 actions and generating 84 examples.
+Actions taken were 24, 21, 17, 26, 12, 0, 11, 14, 5, 6, 7, 1, 2, 3, 4, 8, 25, 18, 9, 13, 10.
+Result was P1 wins
+[[2. 2. 1. 2. 1. 1. 2. 1. 2.]
+ [1. 1. 1. 1. 2. 2. 0. 0. 1.]
+ [2. 0. 0. 2. 0. 0. 1. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:15:36.329363] SP0: Episode 32 completed in 3.97s with12 actions and generating 48 examples.
+Actions taken were 0, 25, 7, 11, 6, 12, 16, 26, 17, 14, 1, 13.
+Result was P2 wins
+[[1. 1. 0. 0. 0. 0. 1. 1. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:15:43.301968] SP0: Episode 33 completed in 6.97s with21 actions and generating 84 examples.
+Actions taken were 14, 6, 9, 11, 5, 2, 7, 25, 12, 17, 26, 0, 1, 3, 4, 8, 10, 18, 24, 13, 34.
+Result was P1 wins
+[[2. 1. 2. 2. 1. 1. 2. 1. 2.]
+ [1. 1. 2. 1. 2. 1. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 1. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:15:43.302515] SP0: Finished episode generation 11 with 216 examples - looking to submit examples
+[2020-06-03 17:15:43.323039] SP0: Finished example submission 11
+[2020-06-03 17:15:43.327372] SP0: No weights update, continuing
+[2020-06-03 17:15:43.327387] SP0: Starting example submission 12
+[2020-06-03 17:15:46.316027] SP0: Episode 34 completed in 2.99s with10 actions and generating 40 examples.
+Actions taken were 7, 2, 17, 12, 9, 0, 26, 1, 18, 3.
+Result was P2 wins
+[[2. 2. 2. 2. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 2. 0. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:15:52.335651] SP0: Episode 35 completed in 6.0s with19 actions and generating 76 examples.
+Actions taken were 11, 25, 5, 9, 0, 6, 12, 14, 17, 26, 7, 1, 2, 3, 4, 8, 10, 18, 13.
+Result was P1 wins
+[[1. 2. 1. 2. 1. 1. 2. 1. 2.]
+ [2. 1. 1. 1. 1. 2. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:15:56.875132] SP0: Episode 36 completed in 4.54s with15 actions and generating 60 examples.
+Actions taken were 34, 0, 14, 26, 7, 1, 5, 12, 17, 11, 6, 2, 3, 4, 8.
+Result was P1 wins
+[[2. 2. 2. 1. 2. 1. 1. 1. 1.]
+ [0. 0. 2. 2. 0. 1. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:15:56.875485] SP0: Finished episode generation 12 with 176 examples - looking to submit examples
+[2020-06-03 17:15:56.886647] SP0: Finished example submission 12
+[2020-06-03 17:15:56.889686] SP0: No weights update, continuing
+[2020-06-03 17:15:56.889703] SP0: Starting example submission 13
+[2020-06-03 17:16:03.787198] SP0: Episode 37 completed in 6.9s with21 actions and generating 84 examples.
+Actions taken were 25, 17, 7, 9, 5, 6, 12, 26, 14, 11, 0, 1, 2, 3, 4, 8, 10, 18, 16, 13, 34.
+Result was P1 wins
+[[1. 2. 1. 2. 1. 1. 2. 1. 2.]
+ [2. 1. 2. 1. 2. 1. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:16:08.074152] SP0: Episode 38 completed in 4.29s with13 actions and generating 52 examples.
+Actions taken were 14, 21, 5, 0, 11, 9, 6, 17, 12, 26, 7, 1, 13.
+Result was P1 wins
+[[2. 2. 0. 0. 0. 1. 1. 1. 0.]
+ [2. 0. 1. 1. 1. 1. 0. 0. 2.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:16:16.238581] SP0: Episode 39 completed in 8.16s with25 actions and generating 100 examples.
+Actions taken were 24, 34, 6, 14, 17, 26, 12, 11, 7, 0, 1, 2, 3, 4, 5, 8, 25, 18, 9, 13, 16, 29, 23, 27, 22.
+Result was P1 wins
+[[2. 1. 2. 1. 2. 1. 1. 1. 2.]
+ [1. 0. 2. 1. 2. 2. 0. 1. 1.]
+ [2. 0. 0. 0. 1. 1. 1. 1. 2.]
+ [2. 0. 2. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:16:16.239172] SP0: Finished episode generation 13 with 236 examples - looking to submit examples
+[2020-06-03 17:16:16.259219] SP0: Finished example submission 13
+[2020-06-03 17:16:16.263236] SP0: No weights update, continuing
+[2020-06-03 17:16:16.263252] SP0: Starting example submission 14
+[2020-06-03 17:16:22.927718] SP0: Episode 40 completed in 6.66s with21 actions and generating 84 examples.
+Actions taken were 2, 11, 12, 26, 5, 17, 14, 6, 9, 0, 7, 1, 3, 4, 8, 10, 25, 18, 16, 13, 34.
+Result was P1 wins
+[[2. 2. 1. 1. 2. 1. 2. 1. 1.]
+ [1. 2. 2. 1. 2. 1. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:16:27.442774] SP0: Episode 41 completed in 4.49s with14 actions and generating 56 examples.
+Actions taken were 2, 16, 17, 11, 14, 12, 5, 25, 9, 6, 26, 7, 0, 34.
+Result was P2 wins
+[[1. 0. 1. 0. 0. 1. 2. 2. 0.]
+ [1. 0. 2. 2. 0. 1. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:16:36.788814] SP0: Episode 42 completed in 9.35s with31 actions and generating 124 examples.
+Actions taken were 32, 28, 0, 7, 26, 11, 9, 1, 12, 14, 17, 6, 2, 3, 4, 5, 8, 10, 25, 18, 13, 16, 24, 23, 29, 34, 27, 22, 21, 31, 35.
+Result was P1 wins
+[[1. 2. 1. 2. 1. 2. 2. 2. 1.]
+ [1. 2. 2. 1. 1. 2. 0. 2. 1.]
+ [2. 0. 0. 1. 2. 2. 1. 1. 1.]
+ [1. 2. 1. 0. 2. 1. 0. 2. 1.]]
+[2020-06-03 17:16:36.789624] SP0: Finished episode generation 14 with 264 examples - looking to submit examples
+[2020-06-03 17:16:36.812464] SP0: Finished example submission 14
+[2020-06-03 17:16:36.817002] SP0: No weights update, continuing
+[2020-06-03 17:16:36.817018] SP0: Starting example submission 15
+[2020-06-03 17:16:45.010557] SP0: Episode 43 completed in 8.19s with25 actions and generating 100 examples.
+Actions taken were 30, 10, 25, 0, 18, 7, 14, 12, 11, 17, 6, 26, 1, 2, 3, 4, 5, 8, 24, 9, 13, 16, 23, 29, 32.
+Result was P1 wins
+[[2. 1. 2. 1. 2. 1. 1. 2. 2.]
+ [2. 2. 1. 2. 1. 1. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 1. 1. 1. 2.]
+ [0. 0. 2. 1. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:16:51.258554] SP0: Episode 44 completed in 6.23s with19 actions and generating 76 examples.
+Actions taken were 16, 2, 17, 25, 26, 12, 14, 6, 18, 11, 7, 5, 0, 1, 3, 4, 9, 24, 27.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 2. 2. 1. 0.]
+ [1. 0. 2. 2. 0. 1. 0. 1. 1.]
+ [1. 0. 0. 0. 0. 0. 2. 2. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:16:57.700508] SP0: Episode 45 completed in 6.42s with20 actions and generating 80 examples.
+Actions taken were 4, 14, 26, 17, 12, 0, 1, 25, 5, 11, 6, 7, 2, 3, 8, 9, 10, 18, 16, 27.
+Result was P2 wins
+[[2. 1. 1. 2. 1. 1. 1. 2. 1.]
+ [2. 1. 2. 1. 0. 2. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:16:57.723970] SP0: Finished episode generation 15 with 256 examples - looking to submit examples
+[2020-06-03 17:16:57.724477] SP0: Finished example submission 15
+[2020-06-03 17:16:57.727468] SP0: No weights update, continuing
+[2020-06-03 17:16:57.727484] SP0: Starting example submission 16
+[2020-06-03 17:17:04.449506] SP0: Episode 46 completed in 6.72s with21 actions and generating 84 examples.
+Actions taken were 0, 16, 6, 12, 25, 26, 11, 24, 14, 17, 7, 1, 5, 18, 2, 9, 34, 13, 23, 29, 32.
+Result was P1 wins
+[[1. 2. 1. 0. 0. 1. 1. 1. 0.]
+ [2. 0. 1. 2. 2. 1. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 1. 2. 1. 2.]
+ [0. 0. 2. 0. 0. 1. 0. 1. 0.]]
+[2020-06-03 17:17:10.937896] SP0: Episode 47 completed in 6.46s with20 actions and generating 80 examples.
+Actions taken were 6, 2, 12, 0, 7, 26, 17, 25, 1, 11, 14, 3, 4, 5, 8, 9, 10, 18, 24, 27.
+Result was P2 wins
+[[2. 1. 2. 2. 1. 2. 1. 1. 1.]
+ [2. 1. 2. 1. 0. 1. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 0. 1. 2. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:17:18.296846] SP0: Episode 48 completed in 7.34s with22 actions and generating 88 examples.
+Actions taken were 34, 26, 24, 14, 18, 11, 12, 16, 9, 17, 6, 7, 5, 25, 2, 13, 23, 27, 29, 1, 32, 15.
+Result was P2 wins
+[[0. 2. 1. 0. 0. 1. 1. 2. 0.]
+ [1. 0. 2. 1. 2. 2. 2. 2. 2.]
+ [1. 0. 0. 0. 0. 1. 1. 2. 2.]
+ [2. 0. 1. 0. 0. 1. 0. 1. 0.]]
+[2020-06-03 17:17:18.297408] SP0: Finished episode generation 16 with 252 examples - looking to submit examples
+[2020-06-03 17:17:18.297486] SP0: Finished example submission 16
+[2020-06-03 17:17:18.297632] SP0: No weights update, continuing
+[2020-06-03 17:17:18.297641] SP0: Starting example submission 17
+[2020-06-03 17:17:22.154657] SP0: Episode 49 completed in 3.86s with12 actions and generating 48 examples.
+Actions taken were 4, 17, 25, 11, 26, 12, 18, 7, 24, 14, 6, 13.
+Result was P2 wins
+[[0. 0. 0. 0. 1. 0. 1. 2. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:17:28.614290] SP0: Episode 50 completed in 6.46s with20 actions and generating 80 examples.
+Actions taken were 14, 0, 5, 26, 1, 11, 25, 2, 3, 12, 17, 6, 7, 4, 8, 9, 10, 18, 16, 27.
+Result was P2 wins
+[[2. 1. 2. 1. 2. 1. 2. 1. 1.]
+ [2. 1. 2. 2. 0. 1. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:17:35.504285] SP0: Episode 51 completed in 6.87s with21 actions and generating 84 examples.
+Actions taken were 0, 1, 7, 6, 9, 2, 12, 11, 24, 14, 17, 26, 3, 4, 5, 8, 25, 18, 16, 13, 34.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 1. 2. 1. 2.]
+ [1. 0. 2. 1. 2. 2. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 1. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:17:35.504812] SP0: Finished episode generation 17 with 212 examples - looking to submit examples
+[2020-06-03 17:17:35.504853] SP0: Finished example submission 17
+[2020-06-03 17:17:35.504941] SP0: No weights update, continuing
+[2020-06-03 17:17:35.504955] SP0: Starting example submission 18
+[2020-06-03 17:17:39.090091] SP0: Episode 52 completed in 3.58s with11 actions and generating 44 examples.
+Actions taken were 2, 17, 11, 25, 14, 18, 7, 5, 12, 6, 13.
+Result was P1 wins
+[[0. 0. 1. 0. 0. 2. 2. 1. 0.]
+ [0. 0. 1. 1. 1. 1. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:17:45.315581] SP0: Episode 53 completed in 6.22s with20 actions and generating 80 examples.
+Actions taken were 7, 11, 5, 6, 2, 25, 0, 18, 14, 12, 17, 26, 1, 3, 4, 8, 9, 13, 16, 10.
+Result was P2 wins
+[[1. 1. 1. 2. 1. 1. 2. 1. 2.]
+ [1. 2. 2. 2. 2. 1. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:17:49.297763] SP0: Episode 54 completed in 3.96s with12 actions and generating 48 examples.
+Actions taken were 7, 11, 0, 18, 6, 25, 26, 14, 17, 12, 1, 13.
+Result was P2 wins
+[[1. 1. 0. 0. 0. 0. 1. 1. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:17:49.319248] SP0: Finished episode generation 18 with 172 examples - looking to submit examples
+[2020-06-03 17:17:49.319294] SP0: Finished example submission 18
+[2020-06-03 17:17:49.319391] SP0: No weights update, continuing
+[2020-06-03 17:17:49.319399] SP0: Starting example submission 19
+[2020-06-03 17:17:55.201885] SP0: Episode 55 completed in 5.88s with18 actions and generating 72 examples.
+Actions taken were 28, 16, 26, 7, 14, 17, 12, 11, 9, 6, 0, 1, 2, 3, 4, 25, 5, 34.
+Result was P2 wins
+[[1. 2. 1. 2. 1. 1. 2. 2. 0.]
+ [1. 0. 2. 1. 0. 1. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 1. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:17:59.427608] SP0: Episode 56 completed in 4.18s with13 actions and generating 52 examples.
+Actions taken were 26, 11, 14, 18, 12, 17, 25, 24, 34, 6, 7, 0, 16.
+Result was P1 wins
+[[2. 0. 0. 0. 0. 0. 2. 1. 0.]
+ [0. 0. 2. 1. 0. 1. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:18:04.432021] SP0: Episode 57 completed in 5.0s with15 actions and generating 60 examples.
+Actions taken were 14, 7, 9, 25, 12, 17, 0, 11, 23, 6, 26, 1, 5, 2, 32.
+Result was P1 wins
+[[1. 2. 2. 0. 0. 1. 2. 2. 0.]
+ [1. 0. 2. 1. 0. 1. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 1. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:18:04.432498] SP0: Finished episode generation 19 with 184 examples - looking to submit examples
+[2020-06-03 17:18:04.451662] SP0: Finished example submission 19
+[2020-06-03 17:18:04.454065] SP0: No weights update, continuing
+[2020-06-03 17:18:04.454081] SP0: Starting example submission 20
+[2020-06-03 17:18:08.383770] SP0: Episode 58 completed in 3.93s with12 actions and generating 48 examples.
+Actions taken were 7, 0, 26, 11, 9, 18, 25, 12, 17, 14, 6, 13.
+Result was P2 wins
+[[2. 0. 0. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:18:13.944272] SP0: Episode 59 completed in 5.52s with17 actions and generating 68 examples.
+Actions taken were 34, 0, 7, 14, 6, 11, 17, 24, 12, 26, 1, 2, 3, 4, 25, 5, 16.
+Result was P1 wins
+[[2. 1. 2. 1. 2. 2. 1. 1. 0.]
+ [0. 0. 2. 1. 0. 2. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 2. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:18:19.656541] SP0: Episode 60 completed in 5.69s with18 actions and generating 72 examples.
+Actions taken were 26, 1, 0, 7, 9, 2, 5, 11, 14, 12, 17, 6, 3, 4, 8, 10, 25, 13.
+Result was P2 wins
+[[1. 2. 2. 1. 2. 1. 2. 2. 1.]
+ [1. 2. 2. 2. 2. 1. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:18:19.656977] SP0: Finished episode generation 20 with 188 examples - looking to submit examples
+[2020-06-03 17:18:19.657018] SP0: Finished example submission 20
+[2020-06-03 17:18:19.657101] SP0: No weights update, continuing
+[2020-06-03 17:18:19.657109] SP0: Starting example submission 21
+[2020-06-03 17:18:25.409613] SP0: Episode 61 completed in 5.75s with18 actions and generating 72 examples.
+Actions taken were 4, 34, 26, 17, 9, 0, 6, 14, 1, 12, 11, 7, 2, 3, 5, 25, 18, 16.
+Result was P2 wins
+[[2. 1. 1. 2. 1. 1. 1. 2. 0.]
+ [1. 0. 1. 2. 0. 2. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:18:35.149002] SP0: Episode 62 completed in 9.71s with30 actions and generating 120 examples.
+Actions taken were 14, 17, 9, 7, 12, 0, 24, 11, 6, 26, 1, 2, 3, 4, 5, 25, 18, 13, 16, 23, 27, 34, 29, 32, 10, 21, 22, 31, 15, 33.
+Result was P2 wins
+[[2. 1. 2. 1. 2. 1. 1. 2. 0.]
+ [1. 1. 2. 1. 2. 1. 1. 1. 2.]
+ [1. 0. 0. 2. 1. 2. 1. 2. 2.]
+ [1. 0. 1. 0. 2. 2. 2. 2. 0.]]
+[2020-06-03 17:18:40.244859] SP0: Episode 63 completed in 5.09s with15 actions and generating 60 examples.
+Actions taken were 28, 7, 9, 0, 11, 18, 12, 16, 5, 14, 17, 26, 6, 25, 10.
+Result was P1 wins
+[[2. 0. 0. 0. 0. 1. 1. 2. 0.]
+ [1. 1. 1. 1. 0. 2. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:18:40.245308] SP0: Finished episode generation 21 with 252 examples - looking to submit examples
+[2020-06-03 17:18:40.245380] SP0: Finished example submission 21
+[2020-06-03 17:18:40.245529] SP0: No weights update, continuing
+[2020-06-03 17:18:40.245538] SP0: Starting example submission 22
+[2020-06-03 17:18:47.059701] SP0: Episode 64 completed in 6.81s with21 actions and generating 84 examples.
+Actions taken were 28, 7, 0, 17, 2, 5, 12, 11, 25, 14, 6, 26, 1, 3, 4, 8, 9, 10, 18, 16, 27.
+Result was P1 wins
+[[1. 1. 1. 2. 1. 2. 1. 2. 2.]
+ [1. 2. 2. 1. 0. 2. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [1. 1. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:18:53.666204] SP0: Episode 65 completed in 6.59s with20 actions and generating 80 examples.
+Actions taken were 6, 16, 18, 14, 17, 12, 13, 9, 11, 26, 7, 0, 25, 5, 1, 2, 24, 23, 27, 32.
+Result was P2 wins
+[[2. 1. 2. 0. 0. 2. 1. 1. 0.]
+ [2. 0. 1. 2. 1. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 2. 1. 1. 2.]
+ [1. 0. 0. 0. 0. 2. 0. 0. 0.]]
+[2020-06-03 17:19:00.846846] SP0: Episode 66 completed in 7.18s with22 actions and generating 88 examples.
+Actions taken were 11, 16, 25, 0, 18, 7, 12, 5, 17, 14, 6, 26, 1, 9, 2, 24, 34, 13, 23, 29, 27, 21.
+Result was P2 wins
+[[2. 1. 1. 0. 0. 2. 1. 2. 0.]
+ [2. 0. 1. 1. 2. 2. 0. 2. 1.]
+ [1. 0. 0. 2. 0. 1. 2. 1. 2.]
+ [1. 0. 2. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:19:00.868261] SP0: Finished episode generation 22 with 252 examples - looking to submit examples
+[2020-06-03 17:19:00.868304] SP0: Finished example submission 22
+[2020-06-03 17:19:00.868383] SP0: No weights update, continuing
+[2020-06-03 17:19:00.868390] SP0: Starting example submission 23
+[2020-06-03 17:19:09.385276] SP0: Episode 67 completed in 8.52s with26 actions and generating 104 examples.
+Actions taken were 14, 11, 26, 7, 9, 24, 6, 18, 0, 12, 17, 5, 25, 1, 2, 3, 13, 16, 27, 23, 29, 34, 32, 21, 22, 31.
+Result was P2 wins
+[[1. 2. 1. 2. 0. 2. 1. 2. 0.]
+ [1. 0. 2. 2. 1. 1. 0. 2. 1.]
+ [2. 0. 0. 2. 1. 2. 2. 1. 1.]
+ [1. 0. 1. 0. 2. 1. 0. 2. 0.]]
+[2020-06-03 17:19:13.707825] SP0: Episode 68 completed in 4.32s with13 actions and generating 52 examples.
+Actions taken were 32, 16, 5, 17, 0, 26, 6, 11, 1, 12, 14, 7, 23.
+Result was P1 wins
+[[1. 1. 0. 0. 0. 1. 1. 2. 0.]
+ [0. 0. 2. 2. 0. 1. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:19:17.699976] SP0: Episode 69 completed in 3.99s with12 actions and generating 48 examples.
+Actions taken were 30, 10, 6, 29, 7, 12, 17, 0, 5, 11, 14, 13.
+Result was P2 wins
+[[2. 0. 0. 0. 0. 1. 1. 1. 0.]
+ [0. 2. 2. 2. 2. 1. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 1. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:19:17.700271] SP0: Finished episode generation 23 with 204 examples - looking to submit examples
+[2020-06-03 17:19:17.721382] SP0: Finished example submission 23
+[2020-06-03 17:19:17.723975] SP0: No weights update, continuing
+[2020-06-03 17:19:17.723990] SP0: Starting example submission 24
+[2020-06-03 17:19:23.615940] SP0: Episode 70 completed in 5.89s with18 actions and generating 72 examples.
+Actions taken were 34, 2, 24, 26, 5, 18, 12, 6, 14, 11, 17, 7, 25, 0, 16, 9, 29, 27.
+Result was P2 wins
+[[2. 0. 2. 0. 0. 1. 2. 2. 0.]
+ [2. 0. 2. 1. 0. 1. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 1. 1. 2.]
+ [2. 0. 1. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:19:31.332981] SP0: Episode 71 completed in 7.69s with24 actions and generating 96 examples.
+Actions taken were 28, 14, 17, 6, 5, 7, 12, 18, 9, 11, 26, 0, 1, 2, 25, 3, 16, 24, 13, 23, 27, 34, 10, 4.
+Result was P2 wins
+[[2. 1. 2. 2. 2. 1. 2. 2. 0.]
+ [1. 1. 2. 1. 1. 2. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 2. 2. 1. 1.]
+ [1. 1. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:19:35.039809] SP0: Episode 72 completed in 3.71s with11 actions and generating 44 examples.
+Actions taken were 4, 14, 25, 17, 26, 12, 7, 11, 16, 6, 34.
+Result was P1 wins
+[[0. 0. 0. 0. 1. 0. 2. 1. 0.]
+ [0. 0. 2. 2. 0. 2. 0. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:19:35.040132] SP0: Finished episode generation 24 with 212 examples - looking to submit examples
+[2020-06-03 17:19:35.040173] SP0: Finished example submission 24
+[2020-06-03 17:19:35.040257] SP0: No weights update, continuing
+[2020-06-03 17:19:35.040266] SP0: Starting example submission 25
+[2020-06-03 17:19:40.059988] SP0: Episode 73 completed in 5.02s with16 actions and generating 64 examples.
+Actions taken were 34, 12, 13, 7, 6, 5, 11, 0, 14, 17, 26, 1, 25, 2, 18, 3.
+Result was P2 wins
+[[2. 2. 2. 2. 0. 2. 1. 2. 0.]
+ [0. 0. 1. 2. 1. 1. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:19:45.959914] SP0: Episode 74 completed in 5.9s with18 actions and generating 72 examples.
+Actions taken were 24, 14, 7, 0, 11, 12, 25, 5, 13, 17, 6, 26, 1, 18, 2, 9, 16, 27.
+Result was P2 wins
+[[2. 1. 1. 0. 0. 2. 1. 1. 0.]
+ [2. 0. 1. 2. 1. 2. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 1. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:19:53.256264] SP0: Episode 75 completed in 7.27s with22 actions and generating 88 examples.
+Actions taken were 2, 0, 12, 1, 18, 7, 5, 11, 25, 14, 17, 6, 26, 3, 4, 8, 9, 24, 13, 16, 23, 32.
+Result was P2 wins
+[[2. 2. 1. 2. 1. 1. 2. 2. 2.]
+ [1. 0. 2. 1. 1. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 1. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0.]]
+[2020-06-03 17:19:53.256809] SP0: Finished episode generation 25 with 224 examples - looking to submit examples
+[2020-06-03 17:19:53.278527] SP0: Finished example submission 25
+[2020-06-03 17:19:53.281372] SP0: No weights update, continuing
+[2020-06-03 17:19:53.281387] SP0: Starting example submission 26
+[2020-06-03 17:20:03.295038] SP0: Episode 76 completed in 10.01s with31 actions and generating 124 examples.
+Actions taken were 14, 21, 18, 5, 17, 16, 11, 12, 26, 6, 7, 0, 1, 2, 25, 9, 13, 24, 23, 29, 27, 34, 32, 10, 22, 31, 15, 28, 8, 3, 35.
+Result was P1 wins
+[[2. 1. 2. 2. 0. 2. 2. 1. 1.]
+ [2. 2. 1. 2. 1. 1. 1. 2. 1.]
+ [1. 0. 0. 2. 1. 1. 2. 1. 1.]
+ [1. 2. 2. 0. 2. 1. 0. 2. 1.]]
+[2020-06-03 17:20:08.967896] SP0: Episode 77 completed in 5.67s with18 actions and generating 72 examples.
+Actions taken were 14, 11, 17, 26, 29, 0, 7, 12, 1, 6, 2, 3, 4, 5, 8, 9, 25, 10.
+Result was P2 wins
+[[2. 1. 1. 2. 1. 2. 2. 1. 1.]
+ [2. 2. 2. 2. 0. 1. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:20:13.852130] SP0: Episode 78 completed in 4.86s with15 actions and generating 60 examples.
+Actions taken were 24, 12, 16, 18, 25, 0, 11, 5, 17, 14, 6, 26, 7, 9, 34.
+Result was P1 wins
+[[2. 0. 0. 0. 0. 2. 1. 1. 0.]
+ [2. 0. 1. 2. 0. 2. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 1. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:20:13.852568] SP0: Finished episode generation 26 with 256 examples - looking to submit examples
+[2020-06-03 17:20:13.872771] SP0: Finished example submission 26
+[2020-06-03 17:20:13.878020] SP0: No weights update, continuing
+[2020-06-03 17:20:13.878036] SP0: Starting example submission 27
+[2020-06-03 17:20:20.753331] SP0: Episode 79 completed in 6.87s with21 actions and generating 84 examples.
+Actions taken were 0, 11, 9, 6, 5, 18, 7, 26, 14, 12, 17, 1, 25, 2, 3, 4, 8, 24, 16, 13, 34.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 1. 2. 1. 1.]
+ [1. 0. 2. 2. 2. 1. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 2. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:20:27.988800] SP0: Episode 80 completed in 7.23s with22 actions and generating 88 examples.
+Actions taken were 26, 11, 6, 24, 2, 7, 17, 14, 12, 0, 1, 3, 4, 5, 8, 25, 18, 9, 13, 16, 23, 34.
+Result was P2 wins
+[[2. 1. 1. 2. 1. 2. 1. 2. 1.]
+ [2. 0. 2. 1. 1. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 1. 2. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:20:31.296938] SP0: Episode 81 completed in 3.29s with11 actions and generating 44 examples.
+Actions taken were 4, 17, 0, 18, 6, 12, 5, 14, 11, 1, 7.
+Result was P1 wins
+[[1. 2. 0. 0. 1. 1. 1. 1. 0.]
+ [0. 0. 1. 2. 0. 2. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:20:31.320618] SP0: Finished episode generation 27 with 216 examples - looking to submit examples
+[2020-06-03 17:20:31.322347] SP0: Finished example submission 27
+[2020-06-03 17:20:31.325919] SP0: No weights update, continuing
+[2020-06-03 17:20:31.325936] SP0: Starting example submission 28
+[2020-06-03 17:20:39.067496] SP0: Episode 82 completed in 7.74s with24 actions and generating 96 examples.
+Actions taken were 30, 10, 12, 7, 0, 25, 11, 14, 17, 6, 26, 1, 2, 3, 4, 5, 8, 9, 18, 24, 13, 16, 23, 34.
+Result was P2 wins
+[[1. 2. 1. 2. 1. 2. 2. 2. 1.]
+ [2. 2. 1. 1. 1. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 1. 2. 2. 1.]
+ [0. 0. 0. 1. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:20:45.419786] SP0: Episode 83 completed in 6.33s with20 actions and generating 80 examples.
+Actions taken were 7, 34, 17, 14, 9, 18, 5, 12, 11, 6, 26, 0, 25, 1, 16, 24, 13, 2, 23, 3.
+Result was P2 wins
+[[2. 2. 2. 2. 0. 1. 2. 1. 0.]
+ [1. 0. 1. 2. 1. 2. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 1. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:20:50.751764] SP0: Episode 84 completed in 5.33s with17 actions and generating 68 examples.
+Actions taken were 14, 17, 25, 7, 9, 18, 11, 16, 0, 12, 6, 26, 1, 5, 2, 24, 3.
+Result was P1 wins
+[[1. 1. 1. 1. 0. 2. 1. 2. 0.]
+ [1. 0. 1. 2. 0. 1. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 0. 2. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:20:50.775491] SP0: Finished episode generation 28 with 244 examples - looking to submit examples
+[2020-06-03 17:20:50.777136] SP0: Finished example submission 28
+[2020-06-03 17:20:50.780323] SP0: No weights update, continuing
+[2020-06-03 17:20:50.780338] SP0: Starting example submission 29
+[2020-06-03 17:20:57.487370] SP0: Episode 85 completed in 6.71s with21 actions and generating 84 examples.
+Actions taken were 14, 11, 26, 18, 7, 24, 9, 0, 12, 17, 6, 1, 5, 25, 2, 13, 16, 34, 23, 27, 32.
+Result was P1 wins
+[[2. 2. 1. 0. 0. 1. 1. 1. 0.]
+ [1. 0. 2. 1. 2. 1. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 1. 2. 2. 1.]
+ [2. 0. 0. 0. 0. 1. 0. 2. 0.]]
+[2020-06-03 17:21:03.442436] SP0: Episode 86 completed in 5.95s with18 actions and generating 72 examples.
+Actions taken were 35, 9, 7, 26, 11, 12, 24, 5, 17, 14, 6, 0, 1, 2, 25, 18, 3, 27.
+Result was P2 wins
+[[2. 1. 2. 1. 0. 2. 1. 1. 0.]
+ [2. 0. 1. 2. 0. 2. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 0. 1. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 1.]]
+[2020-06-03 17:21:08.799107] SP0: Episode 87 completed in 5.36s with16 actions and generating 64 examples.
+Actions taken were 2, 14, 6, 24, 26, 7, 25, 11, 12, 17, 0, 1, 3, 4, 5, 34.
+Result was P2 wins
+[[1. 2. 1. 1. 2. 1. 1. 2. 0.]
+ [0. 0. 2. 1. 0. 2. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:21:08.799548] SP0: Finished episode generation 29 with 220 examples - looking to submit examples
+[2020-06-03 17:21:08.816714] SP0: Finished example submission 29
+[2020-06-03 17:21:08.819364] SP0: No weights update, continuing
+[2020-06-03 17:21:08.819378] SP0: Starting example submission 30
+[2020-06-03 17:21:13.020201] SP0: Episode 88 completed in 4.2s with13 actions and generating 52 examples.
+Actions taken were 14, 34, 9, 26, 11, 18, 12, 17, 6, 0, 7, 1, 13.
+Result was P1 wins
+[[2. 2. 0. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 1. 1. 1. 1. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:21:19.540645] SP0: Episode 89 completed in 6.52s with21 actions and generating 84 examples.
+Actions taken were 28, 7, 0, 17, 11, 16, 26, 14, 12, 6, 1, 2, 3, 4, 5, 8, 25, 18, 9, 13, 10.
+Result was P1 wins
+[[1. 1. 2. 1. 2. 1. 2. 2. 2.]
+ [1. 1. 1. 1. 2. 2. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:21:25.522332] SP0: Episode 90 completed in 5.96s with19 actions and generating 76 examples.
+Actions taken were 11, 0, 25, 14, 1, 6, 12, 18, 7, 17, 26, 2, 3, 4, 5, 8, 9, 16, 10.
+Result was P1 wins
+[[2. 1. 2. 1. 2. 1. 2. 1. 2.]
+ [1. 1. 1. 1. 0. 2. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:21:25.522845] SP0: Finished episode generation 30 with 212 examples - looking to submit examples
+[2020-06-03 17:21:25.522885] SP0: Finished example submission 30
+[2020-06-03 17:21:25.550936] SP0: No weights update, continuing
+[2020-06-03 17:21:25.550960] SP0: Starting example submission 31
+[2020-06-03 17:21:29.564997] SP0: Episode 91 completed in 4.01s with12 actions and generating 48 examples.
+Actions taken were 21, 12, 26, 11, 6, 0, 5, 18, 17, 14, 1, 13.
+Result was P2 wins
+[[2. 1. 0. 0. 0. 1. 1. 0. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [2. 0. 0. 1. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:21:37.065985] SP0: Episode 92 completed in 7.5s with23 actions and generating 92 examples.
+Actions taken were 34, 14, 24, 26, 12, 11, 7, 25, 16, 17, 6, 0, 5, 18, 9, 13, 2, 23, 29, 27, 32, 1, 22.
+Result was P1 wins
+[[2. 2. 1. 0. 0. 1. 1. 1. 0.]
+ [1. 0. 2. 1. 2. 2. 0. 1. 2.]
+ [2. 0. 0. 0. 1. 2. 1. 2. 2.]
+ [2. 0. 1. 0. 0. 1. 0. 1. 0.]]
+[2020-06-03 17:21:44.250632] SP0: Episode 93 completed in 7.18s with22 actions and generating 88 examples.
+Actions taken were 6, 7, 11, 26, 24, 5, 0, 14, 18, 12, 17, 25, 1, 2, 3, 9, 13, 16, 34, 23, 27, 32.
+Result was P2 wins
+[[1. 1. 2. 1. 0. 2. 1. 2. 0.]
+ [2. 0. 1. 2. 1. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 2. 1. 2. 2.]
+ [1. 0. 0. 0. 0. 2. 0. 1. 0.]]
+[2020-06-03 17:21:44.273864] SP0: Finished episode generation 31 with 228 examples - looking to submit examples
+[2020-06-03 17:21:44.275565] SP0: Finished example submission 31
+[2020-06-03 17:21:44.279441] SP0: No weights update, continuing
+[2020-06-03 17:21:44.279457] SP0: Starting example submission 32
+[2020-06-03 17:21:50.429195] SP0: Episode 94 completed in 6.15s with19 actions and generating 76 examples.
+Actions taken were 16, 11, 5, 7, 18, 6, 12, 17, 2, 14, 26, 25, 0, 1, 3, 4, 9, 24, 27.
+Result was P1 wins
+[[1. 2. 1. 1. 2. 1. 2. 2. 0.]
+ [1. 0. 2. 1. 0. 2. 0. 1. 2.]
+ [1. 0. 0. 0. 0. 0. 2. 2. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:21:56.087699] SP0: Episode 95 completed in 5.66s with18 actions and generating 72 examples.
+Actions taken were 25, 34, 7, 12, 17, 18, 11, 14, 0, 6, 26, 1, 5, 2, 3, 24, 9, 4.
+Result was P2 wins
+[[1. 2. 2. 1. 2. 1. 2. 1. 0.]
+ [1. 0. 1. 2. 0. 2. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:21:58.550853] SP0: Episode 96 completed in 2.46s with8 actions and generating 32 examples.
+Actions taken were 7, 13, 26, 11, 17, 12, 18, 14.
+Result was P2 wins
+[[0. 0. 0. 0. 0. 0. 0. 1. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:21:58.551162] SP0: Finished episode generation 32 with 180 examples - looking to submit examples
+[2020-06-03 17:21:58.559033] SP0: Finished example submission 32
+[2020-06-03 17:21:58.561691] SP0: No weights update, continuing
+[2020-06-03 17:21:58.561707] SP0: Starting example submission 33
+[2020-06-03 17:22:04.980365] SP0: Episode 97 completed in 6.42s with20 actions and generating 80 examples.
+Actions taken were 14, 26, 16, 0, 1, 25, 7, 6, 2, 12, 11, 17, 5, 18, 3, 4, 9, 24, 13, 23.
+Result was P2 wins
+[[2. 1. 1. 1. 2. 1. 2. 1. 0.]
+ [1. 0. 1. 2. 1. 1. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 2. 2. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:22:11.574803] SP0: Episode 98 completed in 6.57s with20 actions and generating 80 examples.
+Actions taken were 26, 7, 2, 12, 11, 0, 25, 14, 1, 17, 6, 3, 4, 5, 8, 9, 10, 18, 13, 27.
+Result was P2 wins
+[[2. 1. 1. 2. 1. 2. 1. 2. 1.]
+ [2. 1. 1. 2. 1. 2. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:22:18.664282] SP0: Episode 99 completed in 7.07s with22 actions and generating 88 examples.
+Actions taken were 26, 27, 0, 25, 1, 17, 14, 7, 11, 12, 6, 5, 2, 3, 4, 8, 18, 9, 13, 16, 23, 34.
+Result was P2 wins
+[[1. 1. 1. 2. 1. 2. 1. 2. 2.]
+ [2. 0. 1. 2. 1. 1. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 1. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:22:18.664817] SP0: Finished episode generation 33 with 248 examples - looking to submit examples
+[2020-06-03 17:22:18.669028] SP0: Finished example submission 33
+[2020-06-03 17:22:18.673011] SP0: No weights update, continuing
+[2020-06-03 17:22:18.673026] SP0: Starting example submission 34
+[2020-06-03 17:22:24.275811] SP0: Episode 100 completed in 5.6s with18 actions and generating 72 examples.
+Actions taken were 32, 26, 12, 14, 16, 11, 18, 6, 17, 0, 7, 1, 5, 25, 9, 2, 13, 3.
+Result was P2 wins
+[[2. 2. 2. 2. 0. 1. 2. 1. 0.]
+ [1. 0. 2. 1. 1. 2. 0. 1. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:22:30.878746] SP0: Episode 101 completed in 6.58s with20 actions and generating 80 examples.
+Actions taken were 26, 0, 13, 5, 17, 14, 12, 11, 1, 6, 7, 2, 3, 4, 8, 9, 25, 18, 16, 27.
+Result was P2 wins
+[[2. 1. 2. 1. 2. 2. 2. 1. 1.]
+ [2. 0. 2. 1. 1. 2. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:22:35.897407] SP0: Episode 102 completed in 5.0s with15 actions and generating 60 examples.
+Actions taken were 28, 14, 18, 11, 9, 5, 0, 25, 12, 17, 6, 26, 7, 1, 27.
+Result was P1 wins
+[[1. 2. 0. 0. 0. 2. 1. 1. 0.]
+ [1. 0. 2. 1. 0. 2. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [1. 1. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:22:35.897810] SP0: Finished episode generation 34 with 212 examples - looking to submit examples
+[2020-06-03 17:22:35.917280] SP0: Finished example submission 34
+[2020-06-03 17:22:35.920841] SP0: No weights update, continuing
+[2020-06-03 17:22:35.920857] SP0: Starting example submission 35
+[2020-06-03 17:22:40.158720] SP0: Episode 103 completed in 4.24s with13 actions and generating 52 examples.
+Actions taken were 24, 9, 14, 11, 17, 0, 25, 12, 18, 6, 26, 7, 23.
+Result was P1 wins
+[[2. 0. 0. 0. 0. 0. 2. 2. 0.]
+ [2. 0. 2. 2. 0. 1. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:22:45.179988] SP0: Episode 104 completed in 5.02s with16 actions and generating 64 examples.
+Actions taken were 30, 2, 26, 5, 0, 14, 1, 11, 13, 12, 17, 6, 7, 3, 25, 4.
+Result was P2 wins
+[[1. 1. 2. 2. 2. 2. 2. 1. 0.]
+ [0. 0. 2. 2. 1. 2. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:22:50.274148] SP0: Episode 105 completed in 5.09s with16 actions and generating 64 examples.
+Actions taken were 35, 12, 25, 6, 18, 0, 14, 17, 1, 11, 26, 7, 2, 5, 3, 4.
+Result was P2 wins
+[[2. 1. 1. 1. 2. 2. 2. 2. 0.]
+ [0. 0. 2. 2. 0. 1. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+[2020-06-03 17:22:50.274555] SP0: Finished episode generation 35 with 180 examples - looking to submit examples
+[2020-06-03 17:22:50.280882] SP0: Finished example submission 35
+[2020-06-03 17:22:50.284149] SP0: No weights update, continuing
+[2020-06-03 17:22:50.284165] SP0: Starting example submission 36
+[2020-06-03 17:22:57.409870] SP0: Episode 106 completed in 7.13s with22 actions and generating 88 examples.
+Actions taken were 26, 6, 7, 5, 17, 18, 25, 11, 12, 14, 0, 1, 2, 3, 4, 8, 9, 24, 13, 16, 23, 32.
+Result was P2 wins
+[[1. 2. 1. 2. 1. 2. 2. 1. 2.]
+ [1. 0. 2. 1. 1. 2. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 1. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0.]]
+[2020-06-03 17:23:04.253128] SP0: Episode 107 completed in 6.82s with21 actions and generating 84 examples.
+Actions taken were 25, 14, 26, 12, 5, 7, 9, 6, 11, 17, 0, 1, 2, 3, 4, 8, 10, 18, 24, 13, 23.
+Result was P1 wins
+[[1. 2. 1. 2. 1. 1. 2. 2. 2.]
+ [1. 1. 1. 2. 2. 2. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:23:11.635244] SP0: Episode 108 completed in 7.38s with23 actions and generating 92 examples.
+Actions taken were 30, 2, 26, 7, 11, 12, 14, 17, 13, 6, 0, 1, 3, 4, 5, 8, 25, 18, 9, 16, 23, 24, 32.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 1. 2. 2. 2.]
+ [1. 0. 1. 2. 1. 1. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 1. 2. 1. 1.]
+ [0. 0. 0. 1. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:23:11.635788] SP0: Finished episode generation 36 with 264 examples - looking to submit examples
+[2020-06-03 17:23:11.656959] SP0: Finished example submission 36
+[2020-06-03 17:23:11.660040] SP0: No weights update, continuing
+[2020-06-03 17:23:11.660379] SP0: Starting example submission 37
+[2020-06-03 17:23:16.026460] SP0: Episode 109 completed in 4.37s with13 actions and generating 52 examples.
+Actions taken were 30, 11, 9, 7, 14, 26, 18, 12, 0, 17, 6, 1, 27.
+Result was P1 wins
+[[1. 2. 0. 0. 0. 0. 1. 2. 0.]
+ [1. 0. 2. 2. 0. 1. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 2.]
+ [1. 0. 0. 1. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:23:20.288179] SP0: Episode 110 completed in 4.24s with13 actions and generating 52 examples.
+Actions taken were 32, 0, 25, 14, 18, 17, 12, 11, 16, 6, 7, 26, 34.
+Result was P1 wins
+[[2. 0. 0. 0. 0. 0. 2. 1. 0.]
+ [0. 0. 2. 1. 0. 2. 0. 1. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [0. 0. 0. 0. 0. 1. 0. 1. 0.]]
+[2020-06-03 17:23:28.940385] SP0: Episode 111 completed in 8.65s with27 actions and generating 108 examples.
+Actions taken were 24, 15, 11, 14, 17, 25, 7, 12, 13, 26, 6, 0, 1, 5, 18, 9, 16, 2, 23, 27, 34, 29, 32, 10, 21, 22, 31.
+Result was P1 wins
+[[2. 1. 2. 0. 0. 2. 1. 1. 0.]
+ [2. 2. 1. 2. 1. 2. 2. 1. 1.]
+ [1. 0. 0. 1. 2. 1. 1. 2. 2.]
+ [2. 0. 2. 0. 1. 1. 0. 1. 0.]]
+[2020-06-03 17:23:28.963527] SP0: Finished episode generation 37 with 212 examples - looking to submit examples
+[2020-06-03 17:23:28.964512] SP0: Finished example submission 37
+[2020-06-03 17:23:28.968013] SP0: No weights update, continuing
+[2020-06-03 17:23:28.968028] SP0: Starting example submission 38
+[2020-06-03 17:23:38.642000] SP0: Episode 112 completed in 9.66s with31 actions and generating 124 examples.
+Actions taken were 26, 1, 0, 18, 11, 6, 2, 12, 3, 14, 17, 7, 4, 5, 8, 9, 25, 24, 13, 16, 23, 27, 34, 29, 32, 10, 21, 22, 31, 15, 33.
+Result was P1 wins
+[[1. 2. 1. 1. 1. 2. 2. 2. 1.]
+ [2. 2. 1. 2. 1. 2. 2. 2. 1.]
+ [2. 0. 0. 1. 2. 1. 2. 1. 1.]
+ [2. 0. 2. 0. 1. 1. 1. 1. 0.]]
+[2020-06-03 17:23:43.524152] SP0: Episode 113 completed in 4.88s with15 actions and generating 60 examples.
+Actions taken were 24, 9, 2, 0, 1, 17, 25, 11, 7, 12, 14, 6, 26, 5, 23.
+Result was P1 wins
+[[2. 1. 1. 0. 0. 2. 2. 1. 0.]
+ [2. 0. 2. 2. 0. 1. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:23:47.522622] SP0: Episode 114 completed in 4.0s with12 actions and generating 48 examples.
+Actions taken were 28, 14, 18, 11, 5, 6, 17, 26, 25, 12, 0, 13.
+Result was P2 wins
+[[1. 0. 0. 0. 0. 1. 2. 0. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:23:47.543448] SP0: Finished episode generation 38 with 232 examples - looking to submit examples
+[2020-06-03 17:23:47.543765] SP0: Finished example submission 38
+[2020-06-03 17:23:47.546541] SP0: No weights update, continuing
+[2020-06-03 17:23:47.546556] SP0: Starting example submission 39
+[2020-06-03 17:23:52.882075] SP0: Episode 115 completed in 5.31s with17 actions and generating 68 examples.
+Actions taken were 35, 0, 11, 7, 13, 12, 17, 25, 1, 14, 6, 26, 2, 5, 3, 18, 4.
+Result was P1 wins
+[[2. 1. 1. 1. 1. 2. 1. 2. 0.]
+ [0. 0. 1. 2. 1. 2. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+[2020-06-03 17:23:59.092754] SP0: Episode 116 completed in 6.21s with19 actions and generating 76 examples.
+Actions taken were 14, 16, 17, 6, 7, 18, 12, 24, 2, 11, 26, 0, 5, 25, 9, 13, 23, 29, 32.
+Result was P1 wins
+[[2. 0. 1. 0. 0. 1. 2. 1. 0.]
+ [1. 0. 2. 1. 2. 1. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 1. 2. 2. 1.]
+ [0. 0. 2. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:24:05.450923] SP0: Episode 117 completed in 6.34s with20 actions and generating 80 examples.
+Actions taken were 4, 0, 26, 1, 25, 17, 2, 7, 11, 12, 14, 6, 3, 5, 8, 9, 10, 18, 13, 27.
+Result was P2 wins
+[[2. 2. 1. 1. 1. 2. 2. 2. 1.]
+ [2. 1. 1. 2. 1. 1. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:24:05.469080] SP0: Finished episode generation 39 with 224 examples - looking to submit examples
+[2020-06-03 17:24:05.469125] SP0: Finished example submission 39
+[2020-06-03 17:24:05.474404] SP0: No weights update, continuing
+[2020-06-03 17:24:05.474416] SP0: Starting example submission 40
+[2020-06-03 17:24:10.182420] SP0: Episode 118 completed in 4.71s with14 actions and generating 56 examples.
+Actions taken were 14, 11, 5, 7, 25, 9, 18, 12, 13, 17, 6, 26, 0, 10.
+Result was P2 wins
+[[1. 0. 0. 0. 0. 1. 1. 2. 0.]
+ [2. 2. 2. 2. 1. 1. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:24:16.743735] SP0: Episode 119 completed in 6.56s with20 actions and generating 80 examples.
+Actions taken were 34, 16, 2, 12, 25, 26, 7, 17, 14, 11, 6, 0, 5, 18, 9, 24, 29, 13, 23, 10.
+Result was P2 wins
+[[2. 0. 1. 0. 0. 1. 1. 1. 0.]
+ [1. 2. 2. 2. 2. 1. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 1. 2. 1. 2.]
+ [0. 0. 1. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:24:24.019258] SP0: Episode 120 completed in 7.26s with22 actions and generating 88 examples.
+Actions taken were 25, 16, 26, 5, 7, 0, 11, 12, 14, 17, 6, 1, 2, 3, 4, 8, 18, 9, 13, 24, 23, 32.
+Result was P2 wins
+[[2. 2. 1. 2. 1. 2. 1. 1. 2.]
+ [2. 0. 1. 2. 1. 1. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 1. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0.]]
+[2020-06-03 17:24:24.019805] SP0: Finished episode generation 40 with 224 examples - looking to submit examples
+[2020-06-03 17:24:24.019844] SP0: Finished example submission 40
+[2020-06-03 17:24:24.039047] SP0: No weights update, continuing
+[2020-06-03 17:24:24.039061] SP0: Starting example submission 41
+[2020-06-03 17:24:27.946677] SP0: Episode 121 completed in 3.91s with12 actions and generating 48 examples.
+Actions taken were 26, 1, 6, 25, 17, 14, 5, 12, 18, 11, 7, 13.
+Result was P2 wins
+[[0. 2. 0. 0. 0. 1. 1. 1. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:24:35.489767] SP0: Episode 122 completed in 7.52s with24 actions and generating 96 examples.
+Actions taken were 35, 31, 14, 17, 25, 12, 5, 26, 0, 11, 6, 7, 1, 2, 3, 4, 8, 18, 9, 24, 16, 13, 23, 10.
+Result was P2 wins
+[[1. 1. 2. 1. 2. 1. 1. 2. 1.]
+ [1. 2. 2. 2. 2. 1. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 1. 2. 1. 2.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 1.]]
+[2020-06-03 17:24:40.778583] SP0: Episode 123 completed in 5.29s with17 actions and generating 68 examples.
+Actions taken were 11, 14, 12, 18, 7, 13, 25, 17, 6, 26, 0, 1, 2, 3, 5, 9, 4.
+Result was P1 wins
+[[1. 2. 1. 2. 1. 1. 1. 1. 0.]
+ [2. 0. 1. 1. 2. 2. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:24:40.779003] SP0: Finished episode generation 41 with 212 examples - looking to submit examples
+[2020-06-03 17:24:40.779042] SP0: Finished example submission 41
+[2020-06-03 17:24:40.779126] SP0: No weights update, continuing
+[2020-06-03 17:24:40.779135] SP0: Starting example submission 42
+[2020-06-03 17:24:49.383937] SP0: Episode 124 completed in 8.6s with26 actions and generating 104 examples.
+Actions taken were 2, 16, 6, 11, 17, 12, 14, 18, 9, 26, 7, 0, 25, 5, 1, 24, 13, 23, 27, 34, 29, 32, 10, 21, 22, 8.
+Result was P2 wins
+[[2. 1. 1. 0. 0. 2. 1. 1. 2.]
+ [1. 1. 2. 2. 1. 1. 0. 2. 1.]
+ [2. 0. 0. 2. 1. 2. 2. 1. 2.]
+ [1. 0. 1. 0. 0. 2. 0. 2. 0.]]
+[2020-06-03 17:24:58.108296] SP0: Episode 125 completed in 8.72s with26 actions and generating 104 examples.
+Actions taken were 26, 27, 7, 5, 13, 12, 9, 0, 17, 11, 14, 6, 25, 18, 1, 24, 2, 16, 23, 34, 29, 32, 10, 21, 22, 8.
+Result was P2 wins
+[[2. 1. 1. 0. 0. 2. 2. 1. 2.]
+ [1. 1. 2. 2. 1. 1. 0. 2. 1.]
+ [2. 0. 0. 2. 1. 1. 2. 1. 1.]
+ [2. 0. 1. 0. 0. 2. 0. 2. 0.]]
+[2020-06-03 17:25:04.670783] SP0: Episode 126 completed in 6.55s with20 actions and generating 80 examples.
+Actions taken were 35, 5, 6, 25, 7, 9, 12, 14, 11, 17, 26, 0, 1, 2, 3, 4, 8, 18, 13, 27.
+Result was P2 wins
+[[2. 1. 2. 1. 2. 2. 1. 1. 1.]
+ [2. 0. 1. 1. 1. 2. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 1.]]
+[2020-06-03 17:25:04.695549] SP0: Finished episode generation 42 with 288 examples - looking to submit examples
+[2020-06-03 17:25:04.697741] SP0: Finished example submission 42
+[2020-06-03 17:25:04.702173] SP0: No weights update, continuing
+[2020-06-03 17:25:04.702189] SP0: Starting example submission 43
+[2020-06-03 17:25:13.264218] SP0: Episode 127 completed in 8.56s with27 actions and generating 108 examples.
+Actions taken were 28, 7, 14, 6, 11, 12, 17, 0, 16, 26, 1, 2, 3, 4, 5, 8, 25, 18, 9, 24, 13, 23, 27, 29, 34, 32, 15.
+Result was P1 wins
+[[2. 1. 2. 1. 2. 1. 2. 2. 2.]
+ [1. 0. 1. 2. 1. 1. 1. 1. 1.]
+ [2. 0. 0. 0. 0. 2. 2. 1. 2.]
+ [1. 1. 2. 0. 0. 2. 0. 1. 0.]]
+[2020-06-03 17:25:18.454484] SP0: Episode 128 completed in 5.17s with16 actions and generating 64 examples.
+Actions taken were 21, 34, 26, 11, 17, 5, 12, 18, 29, 14, 6, 7, 0, 25, 1, 16.
+Result was P2 wins
+[[1. 1. 0. 0. 0. 2. 1. 2. 0.]
+ [0. 0. 2. 1. 0. 2. 0. 2. 1.]
+ [2. 0. 0. 1. 0. 0. 0. 2. 1.]
+ [0. 0. 1. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:25:26.447360] SP0: Episode 129 completed in 7.99s with25 actions and generating 100 examples.
+Actions taken were 30, 0, 26, 18, 17, 7, 14, 11, 12, 6, 1, 2, 3, 4, 5, 8, 25, 24, 9, 13, 16, 23, 27, 29, 21.
+Result was P1 wins
+[[2. 1. 2. 1. 2. 1. 2. 2. 2.]
+ [1. 0. 2. 1. 2. 1. 0. 1. 1.]
+ [2. 0. 0. 1. 0. 2. 2. 1. 1.]
+ [1. 0. 2. 1. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:25:26.468707] SP0: Finished episode generation 43 with 272 examples - looking to submit examples
+[2020-06-03 17:25:26.469840] SP0: Finished example submission 43
+[2020-06-03 17:25:26.473309] SP0: No weights update, continuing
+[2020-06-03 17:25:26.473324] SP0: Starting example submission 44
+[2020-06-03 17:25:31.400499] SP0: Episode 130 completed in 4.93s with15 actions and generating 60 examples.
+Actions taken were 24, 9, 11, 0, 25, 18, 1, 14, 2, 12, 17, 6, 26, 7, 23.
+Result was P1 wins
+[[2. 1. 1. 0. 0. 0. 2. 2. 0.]
+ [2. 0. 1. 2. 0. 2. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:25:37.867873] SP0: Episode 131 completed in 6.47s with20 actions and generating 80 examples.
+Actions taken were 14, 7, 2, 25, 5, 12, 6, 0, 11, 17, 26, 1, 3, 4, 8, 9, 10, 18, 24, 27.
+Result was P2 wins
+[[2. 2. 1. 1. 2. 1. 1. 2. 1.]
+ [2. 1. 1. 2. 0. 1. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 1. 2. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:25:42.454852] SP0: Episode 132 completed in 4.57s with14 actions and generating 56 examples.
+Actions taken were 26, 16, 6, 5, 18, 17, 0, 7, 11, 12, 14, 25, 1, 34.
+Result was P2 wins
+[[1. 1. 0. 0. 0. 2. 1. 2. 0.]
+ [0. 0. 1. 2. 0. 1. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:25:42.455237] SP0: Finished episode generation 44 with 196 examples - looking to submit examples
+[2020-06-03 17:25:42.461193] SP0: Finished example submission 44
+[2020-06-03 17:25:42.463743] SP0: No weights update, continuing
+[2020-06-03 17:25:42.463759] SP0: Starting example submission 45
+[2020-06-03 17:25:47.778942] SP0: Episode 133 completed in 5.31s with17 actions and generating 68 examples.
+Actions taken were 28, 7, 0, 17, 12, 14, 9, 1, 11, 6, 26, 2, 3, 4, 5, 8, 10.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 1. 2. 2. 2.]
+ [1. 1. 1. 1. 0. 2. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:25:53.781925] SP0: Episode 134 completed in 6.0s with19 actions and generating 76 examples.
+Actions taken were 25, 0, 5, 6, 26, 7, 11, 17, 12, 14, 1, 2, 3, 4, 8, 9, 10, 18, 13.
+Result was P1 wins
+[[2. 1. 2. 1. 2. 1. 2. 2. 1.]
+ [2. 1. 1. 1. 1. 2. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]][2020-06-03 17:29:08.191984] Main: Main process awake - killing training and selfplay processes
+
+[2020-06-03 17:25:59.115723] SP0: Episode 135 completed in 5.31s with17 actions and generating 68 examples.
+Actions taken were 24, 15, 12, 11, 5, 17, 0, 25, 14, 6, 7, 26, 1, 18, 2, 13, 3.
+Result was P1 wins
+[[1. 1. 1. 1. 0. 1. 2. 1. 0.]
+ [0. 0. 2. 1. 2. 1. 2. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 1. 2. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:25:59.139738] SP0: Finished episode generation 45 with 212 examples - looking to submit examples
+[2020-06-03 17:25:59.139783] SP0: Finished example submission 45
+[2020-06-03 17:25:59.139868] SP0: No weights update, continuing
+[2020-06-03 17:25:59.139877] SP0: Starting example submission 46
+[2020-06-03 17:26:05.291764] SP0: Episode 136 completed in 6.15s with19 actions and generating 76 examples.
+Actions taken were 14, 7, 9, 26, 17, 11, 25, 2, 12, 6, 0, 1, 3, 4, 5, 8, 18, 24, 27.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 1. 2. 2. 2.]
+ [1. 0. 2. 1. 0. 1. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 2. 1. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:26:10.927266] SP0: Episode 137 completed in 5.61s with18 actions and generating 72 examples.
+Actions taken were 24, 9, 26, 12, 14, 25, 17, 7, 11, 6, 0, 1, 2, 5, 18, 3, 13, 4.
+Result was P2 wins
+[[1. 2. 1. 2. 2. 2. 2. 2. 0.]
+ [2. 0. 1. 2. 1. 1. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 1. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:26:17.401471] SP0: Episode 138 completed in 6.47s with20 actions and generating 80 examples.
+Actions taken were 26, 0, 17, 14, 13, 18, 6, 5, 12, 11, 7, 1, 25, 2, 3, 4, 9, 24, 16, 34.
+Result was P2 wins
+[[2. 2. 2. 1. 2. 2. 1. 1. 0.]
+ [1. 0. 2. 1. 1. 2. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:26:17.420928] SP0: Finished episode generation 46 with 228 examples - looking to submit examples
+[2020-06-03 17:26:17.421010] SP0: Finished example submission 46
+[2020-06-03 17:26:17.421165] SP0: No weights update, continuing
+[2020-06-03 17:26:17.421174] SP0: Starting example submission 47
+[2020-06-03 17:26:24.093327] SP0: Episode 139 completed in 6.67s with21 actions and generating 84 examples.
+Actions taken were 26, 5, 0, 17, 7, 6, 2, 14, 12, 11, 1, 3, 4, 8, 9, 10, 13, 25, 18, 16, 27.
+Result was P1 wins
+[[1. 1. 1. 2. 1. 2. 2. 1. 2.]
+ [1. 2. 2. 1. 1. 2. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:26:29.042416] SP0: Episode 140 completed in 4.93s with15 actions and generating 60 examples.
+Actions taken were 24, 34, 17, 0, 5, 1, 26, 6, 14, 12, 11, 7, 25, 18, 23.
+Result was P1 wins
+[[2. 2. 0. 0. 0. 1. 2. 2. 0.]
+ [0. 0. 1. 2. 0. 1. 0. 0. 1.]
+ [2. 0. 0. 0. 0. 1. 1. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:26:35.935575] SP0: Episode 141 completed in 6.89s with21 actions and generating 84 examples.
+Actions taken were 0, 25, 5, 7, 9, 6, 14, 12, 24, 11, 17, 26, 1, 18, 16, 2, 13, 34, 23, 27, 32.
+Result was P1 wins
+[[1. 1. 2. 0. 0. 1. 2. 2. 0.]
+ [1. 0. 2. 2. 1. 1. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 1. 1. 2. 2.]
+ [2. 0. 0. 0. 0. 1. 0. 2. 0.]]
+[2020-06-03 17:26:35.958193] SP0: Finished episode generation 47 with 228 examples - looking to submit examples
+[2020-06-03 17:26:35.958238] SP0: Finished example submission 47
+[2020-06-03 17:26:35.958324] SP0: No weights update, continuing
+[2020-06-03 17:26:35.958333] SP0: Starting example submission 48
+[2020-06-03 17:26:39.904914] SP0: Episode 142 completed in 3.95s with12 actions and generating 48 examples.
+Actions taken were 26, 5, 18, 6, 17, 11, 2, 12, 7, 14, 0, 13.
+Result was P2 wins
+[[1. 0. 1. 0. 0. 2. 2. 1. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:26:46.840224] SP0: Episode 143 completed in 6.91s with21 actions and generating 84 examples.
+Actions taken were 6, 2, 12, 5, 14, 17, 7, 11, 18, 26, 0, 1, 3, 4, 8, 25, 24, 9, 16, 13, 32.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 2. 1. 1. 1.]
+ [2. 0. 2. 1. 2. 1. 0. 1. 2.]
+ [1. 0. 0. 0. 0. 0. 1. 2. 2.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:26:52.167580] SP0: Episode 144 completed in 5.33s with17 actions and generating 68 examples.
+Actions taken were 2, 16, 7, 12, 11, 9, 6, 25, 14, 17, 26, 5, 0, 18, 1, 24, 3.
+Result was P1 wins
+[[1. 1. 1. 1. 0. 2. 1. 1. 0.]
+ [2. 0. 1. 2. 0. 1. 0. 2. 2.]
+ [2. 0. 0. 0. 0. 0. 2. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:26:52.192254] SP0: Finished episode generation 48 with 200 examples - looking to submit examples
+[2020-06-03 17:26:52.192299] SP0: Finished example submission 48
+[2020-06-03 17:26:52.192380] SP0: No weights update, continuing
+[2020-06-03 17:26:52.192388] SP0: Starting example submission 49
+[2020-06-03 17:26:56.384213] SP0: Episode 145 completed in 4.19s with13 actions and generating 52 examples.
+Actions taken were 32, 26, 0, 6, 14, 25, 5, 12, 11, 17, 7, 1, 23.
+Result was P1 wins
+[[1. 2. 0. 0. 0. 1. 2. 1. 0.]
+ [0. 0. 1. 2. 0. 1. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 1. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:27:03.051651] SP0: Episode 146 completed in 6.67s with20 actions and generating 80 examples.
+Actions taken were 21, 16, 18, 5, 17, 12, 7, 11, 14, 6, 26, 0, 1, 2, 25, 24, 9, 13, 23, 10.
+Result was P2 wins
+[[2. 1. 2. 0. 0. 2. 2. 1. 0.]
+ [1. 2. 2. 2. 2. 1. 0. 2. 1.]
+ [1. 0. 0. 1. 0. 1. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:27:08.366768] SP0: Episode 147 completed in 5.31s with16 actions and generating 64 examples.
+Actions taken were 34, 17, 11, 9, 14, 7, 25, 5, 26, 12, 6, 0, 1, 18, 2, 27.
+Result was P2 wins
+[[2. 1. 1. 0. 0. 2. 1. 2. 0.]
+ [2. 0. 1. 2. 0. 1. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:27:08.385958] SP0: Finished episode generation 49 with 196 examples - looking to submit examples
+[2020-06-03 17:27:08.386004] SP0: Finished example submission 49
+[2020-06-03 17:27:08.386109] SP0: No weights update, continuing
+[2020-06-03 17:27:08.386119] SP0: Starting example submission 50
+[2020-06-03 17:27:14.334649] SP0: Episode 148 completed in 5.95s with18 actions and generating 72 examples.
+Actions taken were 14, 21, 11, 12, 13, 26, 5, 0, 25, 6, 17, 7, 1, 18, 2, 9, 16, 27.
+Result was P2 wins
+[[2. 1. 1. 0. 0. 1. 2. 2. 0.]
+ [2. 0. 1. 2. 1. 1. 0. 1. 1.]
+ [2. 0. 0. 2. 0. 0. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:27:22.297709] SP0: Episode 149 completed in 7.94s with24 actions and generating 96 examples.
+Actions taken were 28, 5, 17, 25, 6, 14, 26, 0, 12, 11, 7, 1, 2, 3, 4, 8, 9, 10, 18, 16, 13, 24, 23, 32.
+Result was P2 wins
+[[2. 2. 1. 2. 1. 2. 1. 1. 2.]
+ [1. 2. 2. 1. 1. 2. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 1. 2. 2. 1.]
+ [0. 1. 0. 0. 0. 2. 0. 0. 0.]]
+[2020-06-03 17:27:27.303862] SP0: Episode 150 completed in 5.01s with16 actions and generating 64 examples.
+Actions taken were 25, 6, 9, 0, 11, 17, 12, 24, 7, 14, 26, 1, 5, 2, 18, 3.
+Result was P2 wins
+[[2. 2. 2. 2. 0. 1. 2. 1. 0.]
+ [1. 0. 1. 1. 0. 2. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:27:27.329152] SP0: Finished episode generation 50 with 232 examples - looking to submit examples
+[2020-06-03 17:27:27.329198] SP0: Finished example submission 50
+[2020-06-03 17:27:27.329281] SP0: No weights update, continuing
+[2020-06-03 17:27:27.329288] SP0: Starting example submission 51
+[2020-06-03 17:27:30.311664] SP0: Episode 151 completed in 2.98s with9 actions and generating 36 examples.
+Actions taken were 14, 24, 6, 26, 12, 18, 11, 17, 13.
+Result was P1 wins
+[[0. 0. 0. 0. 0. 0. 1. 0. 0.]
+ [0. 0. 1. 1. 1. 1. 0. 0. 2.]
+ [2. 0. 0. 0. 0. 0. 2. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:27:34.332156] SP0: Episode 152 completed in 4.02s with12 actions and generating 48 examples.
+Actions taken were 16, 2, 25, 12, 24, 11, 5, 34, 17, 14, 6, 13.
+Result was P2 wins
+[[0. 0. 2. 0. 0. 1. 1. 0. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 1. 1. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:27:41.183941] SP0: Episode 153 completed in 6.85s with21 actions and generating 84 examples.
+Actions taken were 0, 11, 7, 14, 5, 1, 9, 17, 12, 6, 26, 2, 3, 4, 8, 10, 25, 18, 16, 13, 34.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 1. 2. 1. 1.]
+ [1. 2. 2. 1. 2. 2. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:27:41.206266] SP0: Finished episode generation 51 with 168 examples - looking to submit examples
+[2020-06-03 17:27:41.210036] SP0: Finished example submission 51
+[2020-06-03 17:27:41.210189] SP0: No weights update, continuing
+[2020-06-03 17:27:41.210198] SP0: Starting example submission 52
+[2020-06-03 17:27:46.768238] SP0: Episode 154 completed in 5.56s with17 actions and generating 68 examples.
+Actions taken were 6, 11, 5, 24, 9, 17, 0, 7, 12, 14, 26, 1, 25, 2, 18, 3, 27.
+Result was P1 wins
+[[1. 2. 2. 2. 0. 1. 1. 2. 0.]
+ [1. 0. 2. 1. 0. 2. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:27:53.266453] SP0: Episode 155 completed in 6.5s with20 actions and generating 80 examples.
+Actions taken were 6, 0, 12, 26, 7, 11, 24, 1, 2, 14, 17, 3, 4, 5, 8, 9, 25, 18, 16, 27.
+Result was P2 wins
+[[2. 2. 1. 2. 1. 2. 1. 1. 1.]
+ [2. 0. 2. 1. 0. 2. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 1. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:28:01.111229] SP0: Episode 156 completed in 7.84s with24 actions and generating 96 examples.
+Actions taken were 26, 16, 7, 11, 5, 25, 18, 0, 6, 14, 12, 17, 9, 1, 24, 13, 2, 29, 23, 27, 34, 32, 10, 15.
+Result was P2 wins
+[[2. 2. 1. 0. 0. 1. 1. 1. 0.]
+ [1. 1. 2. 1. 2. 2. 2. 2. 2.]
+ [1. 0. 0. 0. 0. 1. 1. 2. 1.]
+ [2. 0. 2. 0. 0. 2. 0. 1. 0.]]
+[2020-06-03 17:28:01.111840] SP0: Finished episode generation 52 with 244 examples - looking to submit examples
+[2020-06-03 17:28:01.111881] SP0: Finished example submission 52
+[2020-06-03 17:28:01.136067] SP0: No weights update, continuing
+[2020-06-03 17:28:01.136081] SP0: Starting example submission 53
+[2020-06-03 17:28:04.471440] SP0: Episode 157 completed in 3.33s with11 actions and generating 44 examples.
+Actions taken were 6, 28, 0, 7, 18, 5, 1, 17, 2, 11, 3.
+Result was P1 wins
+[[1. 1. 1. 1. 0. 2. 1. 2. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:28:11.913384] SP0: Episode 158 completed in 7.44s with23 actions and generating 92 examples.
+Actions taken were 14, 11, 26, 25, 5, 0, 12, 7, 16, 17, 6, 1, 2, 3, 4, 8, 18, 9, 13, 24, 23, 27, 32.
+Result was P1 wins
+[[2. 2. 1. 2. 1. 1. 1. 2. 2.]
+ [2. 0. 2. 1. 1. 1. 0. 1. 2.]
+ [1. 0. 0. 0. 0. 1. 2. 2. 1.]
+ [2. 0. 0. 0. 0. 1. 0. 0. 0.]]
+[2020-06-03 17:28:14.603701] SP0: Episode 159 completed in 2.69s with9 actions and generating 36 examples.
+Actions taken were 0, 5, 1, 11, 6, 25, 2, 17, 3.
+Result was P1 wins
+[[1. 1. 1. 1. 0. 2. 1. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:28:14.603958] SP0: Finished episode generation 53 with 172 examples - looking to submit examples
+[2020-06-03 17:28:14.603996] SP0: Finished example submission 53
+[2020-06-03 17:28:14.604101] SP0: No weights update, continuing
+[2020-06-03 17:28:14.604109] SP0: Starting example submission 54
+[2020-06-03 17:28:20.492634] SP0: Episode 160 completed in 5.89s with19 actions and generating 76 examples.
+Actions taken were 0, 11, 26, 6, 14, 1, 9, 17, 12, 2, 7, 3, 4, 5, 8, 10, 13, 25, 15.
+Result was P1 wins
+[[1. 2. 2. 2. 1. 2. 2. 1. 1.]
+ [1. 2. 2. 1. 1. 1. 1. 0. 2.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:28:26.708474] SP0: Episode 161 completed in 6.19s with19 actions and generating 76 examples.
+Actions taken were 14, 11, 18, 25, 7, 12, 5, 26, 17, 6, 0, 1, 2, 3, 4, 8, 9, 13, 27.
+Result was P1 wins
+[[1. 2. 1. 2. 1. 1. 2. 1. 2.]
+ [1. 0. 2. 2. 2. 1. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:28:33.982763] SP0: Episode 162 completed in 7.25s with22 actions and generating 88 examples.
+Actions taken were 14, 6, 17, 16, 2, 25, 5, 11, 12, 26, 7, 0, 1, 3, 4, 8, 18, 13, 9, 24, 23, 32.
+Result was P2 wins
+[[2. 1. 1. 2. 1. 1. 2. 1. 2.]
+ [1. 0. 2. 1. 2. 1. 0. 2. 1.]
+ [1. 0. 0. 0. 0. 1. 2. 2. 2.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0.]]
+[2020-06-03 17:28:33.983328] SP0: Finished episode generation 54 with 240 examples - looking to submit examples
+[2020-06-03 17:28:33.983366] SP0: Finished example submission 54
+[2020-06-03 17:28:33.983450] SP0: No weights update, continuing
+[2020-06-03 17:28:33.983459] SP0: Starting example submission 55
+[2020-06-03 17:28:37.578162] SP0: Episode 163 completed in 3.57s with11 actions and generating 44 examples.
+Actions taken were 16, 6, 7, 11, 12, 24, 26, 17, 25, 14, 34.
+Result was P1 wins
+[[0. 0. 0. 0. 0. 0. 2. 1. 0.]
+ [0. 0. 2. 1. 0. 2. 0. 1. 2.]
+ [0. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:28:42.249107] SP0: Episode 164 completed in 4.65s with15 actions and generating 60 examples.
+Actions taken were 34, 32, 0, 26, 1, 12, 17, 7, 14, 11, 6, 5, 2, 25, 3.
+Result was P1 wins
+[[1. 1. 1. 1. 0. 2. 1. 2. 0.]
+ [0. 0. 2. 2. 0. 1. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 2.]
+ [0. 0. 0. 0. 0. 2. 0. 1. 0.]]
+[2020-06-03 17:28:48.735821] SP0: Episode 165 completed in 6.49s with20 actions and generating 80 examples.
+Actions taken were 2, 16, 26, 6, 17, 14, 5, 0, 11, 12, 7, 1, 3, 4, 8, 9, 25, 18, 13, 27.
+Result was P2 wins
+[[2. 2. 1. 1. 2. 1. 2. 1. 1.]
+ [2. 0. 1. 2. 1. 2. 0. 2. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 1. 1.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:28:48.755898] SP0: Finished episode generation 55 with 184 examples - looking to submit examples
+[2020-06-03 17:28:48.755942] SP0: Finished example submission 55
+[2020-06-03 17:28:48.756032] SP0: No weights update, continuing
+[2020-06-03 17:28:48.756040] SP0: Starting example submission 56
+[2020-06-03 17:28:52.757197] SP0: Episode 166 completed in 4.0s with12 actions and generating 48 examples.
+Actions taken were 4, 34, 26, 12, 6, 25, 17, 11, 24, 14, 0, 13.
+Result was P2 wins
+[[1. 0. 0. 0. 1. 0. 1. 0. 0.]
+ [0. 0. 2. 2. 2. 2. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 1. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:28:59.602745] SP0: Episode 167 completed in 6.84s with21 actions and generating 84 examples.
+Actions taken were 34, 14, 0, 6, 18, 1, 11, 7, 12, 17, 26, 2, 3, 4, 5, 25, 24, 9, 13, 16, 10.
+Result was P1 wins
+[[1. 2. 2. 1. 2. 1. 2. 2. 0.]
+ [2. 1. 1. 1. 1. 2. 0. 2. 2.]
+ [1. 0. 0. 0. 0. 0. 1. 2. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:29:05.227632] SP0: Episode 168 completed in 5.62s with17 actions and generating 68 examples.
+Actions taken were 34, 29, 11, 14, 13, 18, 12, 26, 16, 17, 6, 7, 25, 5, 24, 9, 10.
+Result was P1 wins
+[[0. 0. 0. 0. 0. 2. 1. 2. 0.]
+ [2. 1. 1. 1. 1. 2. 0. 1. 2.]
+ [2. 0. 0. 0. 0. 0. 1. 1. 2.]
+ [0. 0. 2. 0. 0. 0. 0. 1. 0.]]
+[2020-06-03 17:29:05.228070] SP0: Finished episode generation 56 with 200 examples - looking to submit examples
+[2020-06-03 17:29:05.228110] SP0: Finished example submission 56
+[2020-06-03 17:29:05.248130] SP0: No weights update, continuing
+[2020-06-03 17:29:05.248145] SP0: Starting example submission 57
+[2020-06-03 17:29:11.835154] SP0: Episode 169 completed in 6.59s with20 actions and generating 80 examples.
+Actions taken were 6, 14, 0, 7, 25, 11, 12, 9, 1, 17, 26, 2, 3, 4, 5, 8, 18, 24, 13, 34.
+Result was P2 wins
+[[1. 1. 2. 1. 2. 1. 1. 2. 2.]
+ [2. 0. 2. 1. 1. 2. 0. 0. 2.]
+ [1. 0. 0. 0. 0. 0. 2. 1. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:29:19.003802] SP0: Episode 170 completed in 7.17s with22 actions and generating 88 examples.
+Actions taken were 24, 34, 17, 26, 0, 12, 11, 5, 7, 14, 6, 1, 25, 2, 18, 9, 16, 13, 23, 29, 27, 21.
+Result was P2 wins
+[[1. 2. 2. 0. 0. 2. 1. 1. 0.]
+ [2. 0. 1. 2. 2. 2. 0. 1. 1.]
+ [1. 0. 0. 2. 0. 1. 1. 1. 2.]
+ [1. 0. 2. 0. 0. 0. 0. 2. 0.]]
+[2020-06-03 17:29:21.599362] SP0: Episode 171 completed in 2.57s with8 actions and generating 32 examples.
+Actions taken were 16, 4, 18, 6, 11, 7, 12, 5.
+Result was P2 wins
+[[0. 0. 0. 0. 2. 2. 2. 2. 0.]
+ [0. 0. 1. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+[2020-06-03 17:29:21.599601] SP0: Finished episode generation 57 with 200 examples - looking to submit examples
+[2020-06-03 17:29:21.599675] SP0: Finished example submission 57
+[2020-06-03 17:29:21.599801] SP0: Selfplay process killed - process ending
+[2020-06-03 17:12:28.325152] TP0: Training process started
+[2020-06-03 17:12:28.325200] TP0: CUDA_VISIBLE_DEVICES set to 0
+[2020-06-03 17:12:32.083079] TP0: Setting seed to 2088391790
+[2020-06-03 17:12:32.083141] TP0: Outputting inital weights
+[2020-06-03 17:12:32.715210] TP0: Outputted weights to selfplay processes
+[2020-06-03 17:12:51.673808] TP0: Received examples. Memory usage 176/1000000000.
+[2020-06-03 17:12:56.819922] TP0: Received examples. Memory usage 448/1000000000.
+[2020-06-03 17:13:01.091362] TP0: Received examples. Memory usage 728/1000000000.
+[2020-06-03 17:13:15.426911] TP0: Received examples. Memory usage 972/1000000000.
+[2020-06-03 17:13:15.833628] TP0: Received examples. Memory usage 1208/1000000000.
+[2020-06-03 17:13:18.823439] TP0: Received examples. Memory usage 1388/1000000000.
+[2020-06-03 17:13:33.064564] TP0: Received examples. Memory usage 1604/1000000000.
+[2020-06-03 17:13:39.647299] TP0: Received examples. Memory usage 1856/1000000000.
+[2020-06-03 17:13:41.618102] TP0: Received examples. Memory usage 2096/1000000000.
+[2020-06-03 17:13:49.211758] TP0: Received examples. Memory usage 2292/1000000000.
+[2020-06-03 17:13:58.083216] TP0: Received examples. Memory usage 2460/1000000000.
+[2020-06-03 17:14:00.957515] TP0: Received examples. Memory usage 2604/1000000000.
+[2020-06-03 17:14:01.028348] TP0: Received examples. Memory usage 2824/1000000000.
+[2020-06-03 17:14:21.763906] TP0: Received examples. Memory usage 3080/1000000000.
+[2020-06-03 17:14:23.150466] TP0: Received examples. Memory usage 3308/1000000000.
+[2020-06-03 17:14:25.133423] TP0: Received examples. Memory usage 3592/1000000000.
+[2020-06-03 17:14:38.012405] TP0: Received examples. Memory usage 3792/1000000000.
+[2020-06-03 17:14:39.353415] TP0: Received examples. Memory usage 3960/1000000000.
+[2020-06-03 17:14:44.879718] TP0: Received examples. Memory usage 4160/1000000000.
+[2020-06-03 17:14:59.055847] TP0: Received examples. Memory usage 4428/1000000000.
+[2020-06-03 17:15:02.946105] TP0: Received examples. Memory usage 4672/1000000000.
+[2020-06-03 17:15:09.155541] TP0: Received examples. Memory usage 4796/1000000000.
+[2020-06-03 17:15:09.938264] TP0: Received examples. Memory usage 5052/1000000000.
+[2020-06-03 17:15:19.813428] TP0: Received examples. Memory usage 5228/1000000000.
+[2020-06-03 17:15:25.779598] TP0: Received examples. Memory usage 5432/1000000000.
+[2020-06-03 17:15:28.238392] TP0: Received examples. Memory usage 5620/1000000000.
+[2020-06-03 17:15:37.135093] TP0: Received examples. Memory usage 5804/1000000000.
+[2020-06-03 17:15:43.327212] TP0: Received examples. Memory usage 6020/1000000000.
+[2020-06-03 17:15:47.629034] TP0: Received examples. Memory usage 6216/1000000000.
+[2020-06-03 17:15:55.324881] TP0: Received examples. Memory usage 6404/1000000000.
+[2020-06-03 17:15:56.889539] TP0: Received examples. Memory usage 6580/1000000000.
+[2020-06-03 17:16:05.843680] TP0: Received examples. Memory usage 6768/1000000000.
+[2020-06-03 17:16:16.263059] TP0: Received examples. Memory usage 7004/1000000000.
+[2020-06-03 17:16:19.582631] TP0: Received examples. Memory usage 7256/1000000000.
+[2020-06-03 17:16:25.374999] TP0: Received examples. Memory usage 7456/1000000000.
+[2020-06-03 17:16:36.816844] TP0: Received examples. Memory usage 7720/1000000000.
+[2020-06-03 17:16:39.204517] TP0: Received examples. Memory usage 7924/1000000000.
+[2020-06-03 17:16:49.378385] TP0: Received examples. Memory usage 8168/1000000000.
+[2020-06-03 17:16:57.728423] TP0: Received examples. Memory usage 8424/1000000000.
+[2020-06-03 17:17:00.762918] TP0: Received examples. Memory usage 8644/1000000000.
+[2020-06-03 17:17:04.341922] TP0: Received examples. Memory usage 8796/1000000000.
+[2020-06-03 17:17:18.325987] TP0: Received examples. Memory usage 9048/1000000000.
+[2020-06-03 17:17:20.500510] TP0: Received examples. Memory usage 9212/1000000000.
+[2020-06-03 17:17:21.468777] TP0: Received examples. Memory usage 9424/1000000000.
+[2020-06-03 17:17:35.510136] TP0: Received examples. Memory usage 9636/1000000000.
+[2020-06-03 17:17:40.574109] TP0: Received examples. Memory usage 9844/1000000000.
+[2020-06-03 17:17:45.449702] TP0: Received examples. Memory usage 10096/1000000000.
+[2020-06-03 17:17:49.323920] TP0: Received examples. Memory usage 10268/1000000000.
+[2020-06-03 17:18:01.808875] TP0: Received examples. Memory usage 10480/1000000000.
+[2020-06-03 17:18:04.454700] TP0: Received examples. Memory usage 10664/1000000000.
+[2020-06-03 17:18:09.080632] TP0: Received examples. Memory usage 10904/1000000000.
+[2020-06-03 17:18:19.662003] TP0: Received examples. Memory usage 11092/1000000000.
+[2020-06-03 17:18:22.943408] TP0: Received examples. Memory usage 11312/1000000000.
+[2020-06-03 17:18:27.318804] TP0: Received examples. Memory usage 11500/1000000000.
+[2020-06-03 17:18:40.272536] TP0: Received examples. Memory usage 11752/1000000000.
+[2020-06-03 17:18:43.958615] TP0: Received examples. Memory usage 11968/1000000000.
+[2020-06-03 17:18:52.858382] TP0: Received examples. Memory usage 12232/1000000000.
+[2020-06-03 17:19:00.872797] TP0: Received examples. Memory usage 12484/1000000000.
+[2020-06-03 17:19:08.979777] TP0: Received examples. Memory usage 12740/1000000000.
+[2020-06-03 17:19:14.482823] TP0: Received examples. Memory usage 12964/1000000000.
+[2020-06-03 17:19:17.724914] TP0: Received examples. Memory usage 13168/1000000000.
+[2020-06-03 17:19:29.928116] TP0: Received examples. Memory usage 13380/1000000000.
+[2020-06-03 17:19:35.065638] TP0: Received examples. Memory usage 13592/1000000000.
+[2020-06-03 17:19:38.350280] TP0: Received examples. Memory usage 13840/1000000000.
+[2020-06-03 17:19:49.824898] TP0: Received examples. Memory usage 14044/1000000000.
+[2020-06-03 17:19:53.282271] TP0: Received examples. Memory usage 14268/1000000000.
+[2020-06-03 17:20:01.865548] TP0: Received examples. Memory usage 14508/1000000000.
+[2020-06-03 17:20:10.967438] TP0: Received examples. Memory usage 14724/1000000000.
+[2020-06-03 17:20:13.877573] TP0: Received examples. Memory usage 14980/1000000000.
+[2020-06-03 17:20:22.120272] TP0: Received examples. Memory usage 15188/1000000000.
+[2020-06-03 17:20:29.974175] TP0: Received examples. Memory usage 15384/1000000000.
+[2020-06-03 17:20:31.325773] TP0: Received examples. Memory usage 15600/1000000000.
+[2020-06-03 17:20:42.576954] TP0: Received examples. Memory usage 15812/1000000000.
+[2020-06-03 17:20:45.731504] TP0: Received examples. Memory usage 15972/1000000000.
+[2020-06-03 17:20:50.781207] TP0: Received examples. Memory usage 16216/1000000000.
+[2020-06-03 17:21:05.943738] TP0: Received examples. Memory usage 16432/1000000000.
+[2020-06-03 17:21:08.820399] TP0: Received examples. Memory usage 16652/1000000000.
+[2020-06-03 17:21:14.620503] TP0: Received examples. Memory usage 16948/1000000000.
+[2020-06-03 17:21:25.550747] TP0: Received examples. Memory usage 17160/1000000000.
+[2020-06-03 17:21:28.243608] TP0: Received examples. Memory usage 17388/1000000000.
+[2020-06-03 17:21:36.039584] TP0: Received examples. Memory usage 17580/1000000000.
+[2020-06-03 17:21:44.279274] TP0: Received examples. Memory usage 17808/1000000000.
+[2020-06-03 17:21:51.118750] TP0: Received examples. Memory usage 18048/1000000000.
+[2020-06-03 17:21:58.562026] TP0: Received examples. Memory usage 18228/1000000000.
+[2020-06-03 17:21:59.820748] TP0: Received examples. Memory usage 18440/1000000000.
+[2020-06-03 17:22:14.524400] TP0: Received examples. Memory usage 18680/1000000000.
+[2020-06-03 17:22:18.673664] TP0: Received examples. Memory usage 18928/1000000000.
+[2020-06-03 17:22:31.184806] TP0: Received examples. Memory usage 19212/1000000000.
+[2020-06-03 17:22:35.530736] TP0: Received examples. Memory usage 19428/1000000000.
+[2020-06-03 17:22:35.920666] TP0: Received examples. Memory usage 19640/1000000000.
+[2020-06-03 17:22:49.938464] TP0: Received examples. Memory usage 19808/1000000000.
+[2020-06-03 17:22:50.284000] TP0: Received examples. Memory usage 19988/1000000000.
+[2020-06-03 17:22:58.363832] TP0: Received examples. Memory usage 20220/1000000000.
+[2020-06-03 17:23:11.661236] TP0: Received examples. Memory usage 20484/1000000000.
+[2020-06-03 17:23:17.789642] TP0: Received examples. Memory usage 20736/1000000000.
+[2020-06-03 17:23:19.481912] TP0: Received examples. Memory usage 20956/1000000000.
+[2020-06-03 17:23:28.968577] TP0: Received examples. Memory usage 21168/1000000000.
+[2020-06-03 17:23:39.621748] TP0: Received examples. Memory usage 21368/1000000000.
+[2020-06-03 17:23:45.129157] TP0: Received examples. Memory usage 21632/1000000000.
+[2020-06-03 17:23:47.547461] TP0: Received examples. Memory usage 21864/1000000000.
+[2020-06-03 17:24:01.465592] TP0: Received examples. Memory usage 22060/1000000000.
+[2020-06-03 17:24:05.477579] TP0: Received examples. Memory usage 22284/1000000000.
+[2020-06-03 17:24:06.902362] TP0: Received examples. Memory usage 22508/1000000000.
+[2020-06-03 17:24:22.114766] TP0: Received examples. Memory usage 22692/1000000000.
+[2020-06-03 17:24:22.406016] TP0: Received examples. Memory usage 22852/1000000000.
+[2020-06-03 17:24:24.044504] TP0: Received examples. Memory usage 23076/1000000000.
+[2020-06-03 17:24:40.795573] TP0: Received examples. Memory usage 23288/1000000000.
+[2020-06-03 17:24:45.079503] TP0: Received examples. Memory usage 23524/1000000000.
+[2020-06-03 17:24:45.910842] TP0: Received examples. Memory usage 23740/1000000000.
+[2020-06-03 17:25:04.702993] TP0: Received examples. Memory usage 24028/1000000000.
+[2020-06-03 17:25:05.671896] TP0: Received examples. Memory usage 24236/1000000000.
+[2020-06-03 17:25:05.692385] TP0: Received examples. Memory usage 24420/1000000000.
+[2020-06-03 17:25:25.322269] TP0: Received examples. Memory usage 24624/1000000000.
+[2020-06-03 17:25:26.474296] TP0: Received examples. Memory usage 24896/1000000000.
+[2020-06-03 17:25:31.295688] TP0: Received examples. Memory usage 25128/1000000000.
+[2020-06-03 17:25:42.464312] TP0: Received examples. Memory usage 25324/1000000000.
+[2020-06-03 17:25:45.557997] TP0: Received examples. Memory usage 25532/1000000000.
+[2020-06-03 17:25:53.449188] TP0: Received examples. Memory usage 25736/1000000000.
+[2020-06-03 17:25:59.145015] TP0: Received examples. Memory usage 25948/1000000000.
+[2020-06-03 17:26:08.016323] TP0: Received examples. Memory usage 26176/1000000000.
+[2020-06-03 17:26:13.921541] TP0: Received examples. Memory usage 26360/1000000000.
+[2020-06-03 17:26:17.434035] TP0: Received examples. Memory usage 26588/1000000000.
+[2020-06-03 17:26:35.962275] TP0: Received examples. Memory usage 26816/1000000000.
+[2020-06-03 17:26:36.103524] TP0: Received examples. Memory usage 27100/1000000000.
+[2020-06-03 17:26:44.858131] TP0: Received examples. Memory usage 27380/1000000000.
+[2020-06-03 17:26:52.199919] TP0: Received examples. Memory usage 27580/1000000000.
+[2020-06-03 17:26:52.862373] TP0: Received examples. Memory usage 27760/1000000000.
+[2020-06-03 17:27:08.391273] TP0: Received examples. Memory usage 27956/1000000000.
+[2020-06-03 17:27:10.455558] TP0: Received examples. Memory usage 28136/1000000000.
+[2020-06-03 17:27:15.760520] TP0: Received examples. Memory usage 28416/1000000000.
+[2020-06-03 17:27:27.334531] TP0: Received examples. Memory usage 28648/1000000000.
+[2020-06-03 17:27:33.218518] TP0: Received examples. Memory usage 28884/1000000000.
+[2020-06-03 17:27:39.785547] TP0: Received examples. Memory usage 29104/1000000000.
+[2020-06-03 17:27:41.213801] TP0: Received examples. Memory usage 29272/1000000000.
+[2020-06-03 17:28:01.139293] TP0: Received examples. Memory usage 29516/1000000000.
+[2020-06-03 17:28:01.372374] TP0: Received examples. Memory usage 29712/1000000000.
+[2020-06-03 17:28:01.568097] TP0: Received examples. Memory usage 30008/1000000000.
+[2020-06-03 17:28:14.630604] TP0: Received examples. Memory usage 30180/1000000000.
+[2020-06-03 17:28:20.170100] TP0: Received examples. Memory usage 30368/1000000000.
+[2020-06-03 17:28:33.875046] TP0: Received examples. Memory usage 30672/1000000000.
+[2020-06-03 17:28:34.007379] TP0: Received examples. Memory usage 30912/1000000000.
+[2020-06-03 17:28:42.835453] TP0: Received examples. Memory usage 31148/1000000000.
+[2020-06-03 17:28:48.760778] TP0: Received examples. Memory usage 31332/1000000000.
+[2020-06-03 17:28:59.727477] TP0: Received examples. Memory usage 31564/1000000000.
+[2020-06-03 17:29:05.231079] TP0: Received examples. Memory usage 31764/1000000000.
+[2020-06-03 17:29:07.693570] TP0: Received examples. Memory usage 32020/1000000000.
+[2020-06-03 17:29:21.627094] TP0: Received examples. Memory usage 32220/1000000000.
+[2020-06-03 17:29:21.627196] TP0: Training process killed
+[2020-06-03 17:29:21.627512] Checkpoint dir does not exist - making directory ../checkpoints
+Process TP0:
+Traceback (most recent call last):
+  File "/home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/scratch/jt3974/4IAR-RL/run-10101622/classes/training_process.py", line 139, in run
+    filename = self.training_args['CHECKPOINT_PREFIX'] + 'final.pkl',
+  File "/scratch/jt3974/4IAR-RL/run-10101622/classes/beck/beck_model.py", line 82, in save_checkpoint
+    pkl.dump(self.nnet, open(filepath, 'w+'))
+TypeError: can't pickle _thread.RLock objects
+[2020-06-03 17:29:23.089747] Main: Training process TP0 joined
+[2020-06-03 17:29:23.089862] Main: Selfplay process SP0 joined
+slurmstepd: error: *** JOB 10101622 ON gpu-91 CANCELLED AT 2020-06-03T20:00:03 ***

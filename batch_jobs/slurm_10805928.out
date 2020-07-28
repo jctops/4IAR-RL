@@ -1,0 +1,220 @@
+no change     /home/jt3974/miniconda3/condabin/conda
+no change     /home/jt3974/miniconda3/bin/conda
+no change     /home/jt3974/miniconda3/bin/conda-env
+no change     /home/jt3974/miniconda3/bin/activate
+no change     /home/jt3974/miniconda3/bin/deactivate
+no change     /home/jt3974/miniconda3/etc/profile.d/conda.sh
+no change     /home/jt3974/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/jt3974/miniconda3/shell/condabin/Conda.psm1
+no change     /home/jt3974/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/jt3974/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/jt3974/miniconda3/etc/profile.d/conda.csh
+no change     /home/jt3974/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+'/home/jt3974/code/4IAR-RL/classes' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes'
+'/home/jt3974/code/4IAR-RL/classes/statehandler.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/statehandler.py'
+'/home/jt3974/code/4IAR-RL/classes/README.md' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/README.md'
+'/home/jt3974/code/4IAR-RL/classes/main.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/main.py'
+'/home/jt3974/code/4IAR-RL/classes/ai_player.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/ai_player.py'
+'/home/jt3974/code/4IAR-RL/classes/gameplay.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/gameplay.py'
+'/home/jt3974/code/4IAR-RL/classes/memory.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/memory.py'
+'/home/jt3974/code/4IAR-RL/classes/selfplay_process.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/selfplay_process.py'
+'/home/jt3974/code/4IAR-RL/classes/model.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/model.py'
+'/home/jt3974/code/4IAR-RL/classes/beck' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck'
+'/home/jt3974/code/4IAR-RL/classes/beck/beck_config.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/beck_config.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/loss.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/loss.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/__pycache__'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/beck_game.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/__pycache__/beck_game.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/beck_model.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/__pycache__/beck_model.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/config.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/__pycache__/config.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/loss.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/__pycache__/loss.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/__pycache__/nnet_construction.cpython-37.pyc' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/__pycache__/nnet_construction.cpython-37.pyc'
+'/home/jt3974/code/4IAR-RL/classes/beck/beck_model.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/beck_model.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/nnet_construction.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/nnet_construction.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/config.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/config.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/beck_display.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/beck_display.py'
+'/home/jt3974/code/4IAR-RL/classes/beck/beck_game.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/beck/beck_game.py'
+'/home/jt3974/code/4IAR-RL/classes/stage.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/stage.py'
+'/home/jt3974/code/4IAR-RL/classes/mcts.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/mcts.py'
+'/home/jt3974/code/4IAR-RL/classes/run_training.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/run_training.py'
+'/home/jt3974/code/4IAR-RL/classes/utils.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/utils.py'
+'/home/jt3974/code/4IAR-RL/classes/display.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/display.py'
+'/home/jt3974/code/4IAR-RL/classes/lazy_loader.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/lazy_loader.py'
+'/home/jt3974/code/4IAR-RL/classes/game.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/game.py'
+'/home/jt3974/code/4IAR-RL/classes/training_process.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/training_process.py'
+'/home/jt3974/code/4IAR-RL/classes/config.py' -> '/scratch/jt3974/4IAR-RL/run-10805928/classes/config.py'
+[2020-07-09 18:13:16.283518] Main: Program beginning
+[2020-07-09 18:13:16.283576] Main: Setting up processes
+[2020-07-09 18:13:16.332427] Main: Training process set up
+[2020-07-09 18:13:36.353465] Main: Selfplay processes set up
+[2020-07-09 18:13:36.354046] Main: Processes created
+[2020-07-09 18:13:36.354059] Main: Starting training process
+[2020-07-09 18:13:36.394876] Main: Starting selfplay processes
+[2020-07-09 18:13:36.432135] Main: Main process sleeping until kill time
+[2020-07-09 18:13:36.562454] SP10: Selfplay process started
+[2020-07-09 18:13:36.562515] SP10: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.562547] SP3: Selfplay process started
+[2020-07-09 18:13:36.562550] SP0: Selfplay process started
+[2020-07-09 18:13:36.562561] SP9: Selfplay process started
+[2020-07-09 18:13:36.562600] SP3: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.562604] SP0: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.562614] SP9: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.563168] TP0: Training process started
+[2020-07-09 18:13:36.563228] TP0: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.563315] SP2: Selfplay process started
+[2020-07-09 18:13:36.563327] SP11: Selfplay process started
+[2020-07-09 18:13:36.563365] SP2: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.563378] SP11: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.573626] SP14: Selfplay process started
+[2020-07-09 18:13:36.573625] SP15: Selfplay process started
+[2020-07-09 18:13:36.573684] SP14: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.573688] SP15: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.575436] SP13: Selfplay process started
+[2020-07-09 18:13:36.575489] SP13: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.576065] SP6: Selfplay process started
+[2020-07-09 18:13:36.576121] SP6: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.581588] SP18: Selfplay process started
+[2020-07-09 18:13:36.581644] SP18: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.589690] SP8: Selfplay process started
+[2020-07-09 18:13:36.589747] SP8: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.591409] SP5: Selfplay process started
+[2020-07-09 18:13:36.591481] SP5: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.593651] SP4: Selfplay process started
+[2020-07-09 18:13:36.593706] SP4: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.612005] SP1: Selfplay process started
+[2020-07-09 18:13:36.612060] SP1: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.619821] SP17: Selfplay process started
+[2020-07-09 18:13:36.619877] SP17: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.628477] SP12: Selfplay process started
+[2020-07-09 18:13:36.628535] SP12: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.631587] SP7: Selfplay process started
+[2020-07-09 18:13:36.631638] SP7: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.639634] SP16: Selfplay process started
+[2020-07-09 18:13:36.639685] SP16: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:13:36.639703] SP19: Selfplay process started
+[2020-07-09 18:13:36.639752] SP19: CUDA_VISIBLE_DEVICES set to None
+[2020-07-09 18:16:18.022649] SP2: Setting seed to 1267728384
+[2020-07-09 18:16:18.022649] SP17: Setting seed to 3915985033
+[2020-07-09 18:16:18.022657] SP10: Setting seed to 0
+[2020-07-09 18:16:18.022654] SP3: Setting seed to 2455425673
+[2020-07-09 18:16:18.022648] SP7: Setting seed to 0
+[2020-07-09 18:16:18.022648] SP9: Setting seed to 2119725409
+[2020-07-09 18:16:18.022648] SP13: Setting seed to 0
+[2020-07-09 18:16:18.022686] SP1: Setting seed to 2399503785
+[2020-07-09 18:16:18.022716] SP15: Setting seed to 4293595473
+[2020-07-09 18:16:18.022724] SP0: Setting seed to 990904320
+[2020-07-09 18:16:18.022698] SP18: Setting seed to 1267728384
+[2020-07-09 18:16:18.022726] SP4: Setting seed to 2119725409
+[2020-07-09 18:16:18.022737] SP5: Setting seed to 4157756953
+[2020-07-09 18:16:18.022728] SP8: Setting seed to 0
+[2020-07-09 18:16:18.022727] SP11: Setting seed to 4293595473
+[2020-07-09 18:16:18.022737] SP12: Setting seed to 3269298129
+[2020-07-09 18:16:18.022767] SP19: Setting seed to 0
+[2020-07-09 18:16:18.023058] SP16: Setting seed to 706703137
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/jt3974/miniconda3/envs/fourinarow/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1635: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+[2020-07-09 18:16:39.045076] SP3: Set up model and searches
+[2020-07-09 18:16:39.045078] SP12: Set up model and searches
+[2020-07-09 18:16:39.045076] SP13: Set up model and searches
+[2020-07-09 18:16:39.045289] Awaiting initial weights
+[2020-07-09 18:16:39.045298] Awaiting initial weights
+[2020-07-09 18:16:39.045314] Awaiting initial weights
+[2020-07-09 18:16:39.045078] SP17: Set up model and searches
+[2020-07-09 18:16:39.045078] SP1: Set up model and searches
+[2020-07-09 18:16:39.045076] SP0: Set up model and searches
+[2020-07-09 18:16:39.045342] Awaiting initial weights
+[2020-07-09 18:16:39.045084] SP2: Set up model and searches
+[2020-07-09 18:16:39.045350] Awaiting initial weights
+[2020-07-09 18:16:39.045077] SP16: Set up model and searches
+[2020-07-09 18:16:39.045360] Awaiting initial weights
+[2020-07-09 18:16:39.045369] Awaiting initial weights
+[2020-07-09 18:16:39.045093] SP10: Set up model and searches
+[2020-07-09 18:16:39.045380] Awaiting initial weights
+[2020-07-09 18:16:39.045079] SP4: Set up model and searches
+[2020-07-09 18:16:39.045080] SP9: Set up model and searches
+[2020-07-09 18:16:39.045393] Awaiting initial weights
+[2020-07-09 18:16:39.045076] SP11: Set up model and searches
+[2020-07-09 18:16:39.045402] Awaiting initial weights
+[2020-07-09 18:16:39.045409] Awaiting initial weights
+[2020-07-09 18:16:39.045079] SP8: Set up model and searches
+[2020-07-09 18:16:39.045096] SP19: Set up model and searches
+[2020-07-09 18:16:39.045428] Awaiting initial weights
+[2020-07-09 18:16:39.045079] SP18: Set up model and searches
+[2020-07-09 18:16:39.045438] Awaiting initial weights
+[2020-07-09 18:16:39.045078] SP15: Set up model and searches
+[2020-07-09 18:16:39.045447] Awaiting initial weights
+[2020-07-09 18:16:39.045457] Awaiting initial weights
+[2020-07-09 18:16:39.045464] Awaiting initial weights
+slurmstepd: error: *** JOB 10805928 ON c43-02 CANCELLED AT 2020-07-10T04:34:21 ***
+slurmstepd: error: Detected 7 oom-kill event(s) in step 10805928.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
