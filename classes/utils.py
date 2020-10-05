@@ -1,11 +1,21 @@
-import datetime
-import numpy as np
-import os
-import time
+class AverageMeter(object):
+    """From https://github.com/pytorch/examples/blob/master/imagenet/main.py"""
 
-def printl(*args, flush=True, **kwargs):
-    time_str = f'[{datetime.datetime.today()}]'
-    print(time_str, flush=flush, *args, **kwargs)
+    def __init__(self):
+        self.val = 0
+        self.avg = 0
+        self.sum = 0
+        self.count = 0
 
-def os_reseed():
-    np.random.seed(int.from_bytes(os.urandom(4), byteorder='little'))
+    def __repr__(self):
+        return f'{self.avg:.2e}'
+
+    def update(self, val, n=1):
+        self.val = val
+        self.sum += val * n
+        self.count += n
+        self.avg = self.sum / self.count
+
+class dotdict(dict):
+    def __getattr__(self, name):
+        return self[name]

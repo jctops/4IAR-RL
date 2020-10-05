@@ -1,41 +1,57 @@
-# Global imports
-import tensorflow as tf
-#my_devices = tf.config.experimental.list_physical_devices(device_type='CPU')
-#tf.config.experimental.set_visible_devices(devices= my_devices, device_type='CPU')
+import logging
 
-# To find out which devices your operations and tensors are assigned to
-# tf.debugging.set_log_device_placement(True)
-import tensorflow as tf
-from tensorflow.python.framework.ops import disable_eager_execution
-disable_eager_execution()
+import coloredlogs
 
-# Local imports
-from ai_player import AIPlayer
-from beck.beck_display import BeckDisplay
-from beck.beck_game import BeckGame
-from beck.beck_model import RandomBeckModel, NnetBeckModel
-from beck.config import MCTS_ARGS, NNET_ARGS
-from mcts import MCTS
-from stage import Stage
+from coach import Coach
+from beck.beck_game import BeckGame as Game
+from beck.beck_nnet import NNetWrapper as nn
+from utils import *
 
-import time
+log = logging.getLogger(__name__)
 
-game = BeckGame(m=4, n=9, k=4)
+coloredlogs.install(level='INFO')  # Change this to DEBUG to see more info.
 
-start_time = time.time()
-model1, model2 = NnetBeckModel(game, NNET_ARGS), NnetBeckModel(game, NNET_ARGS)
-# model1, model2 = RandomBeckModel(game), RandomBeckModel(game)
-trials = 100
-for _ in range(trials):
-    mcts1, mcts2 = MCTS(game, model1, MCTS_ARGS), MCTS(game, model1, MCTS_ARGS)
-    players = [AIPlayer(mcts1, True), AIPlayer(mcts2, True)]
+args = dotdict({
+    'numIters': 1000,
+    'numEps': 100,              # Number of complete self-play games to simulate during a new iteration.
+    'tempThreshold': 15,        #
+    'updateThreshold': 0.6,     # During arena playoff, new neural net will be accepted if threshold or more of games are won.
+    'maxlenOfQueue': 200000,    # Number of game examples to train the neural networks.
+    'numMCTSSims': 80,          # Number of games moves for MCTS to simulate.
+    'arenaCompare': 60,         # Number of games to play during arena play to determine if new net will be accepted.
+    'cpuct': 3,
 
-    #display = BeckDisplay(game, ['Rebecca', 'Rebecca'])
-    stage = Stage(players, game, None)
+    'checkpoint': './temp/',
+    'load_model': False,
+    'load_folder_file': ('/dev/models/8x100x50','best.pth.tar'),
+    'numItersForTrainExamplesHistory': 20,
 
-    stage.execute()
+})
 
-print('Time: ', (time.time() - start_time)/trials)
 
-import time
-time.sleep(5)
+def main():
+    log.info('Loading %s...', Game.__name__)
+    g = Game(4, 9, 4)
+
+    log.info('Loading %s...', nn.__name__)
+    nnet = nn(g)
+
+    if args.load_model:
+        log.info('Loading checkpoint "%s/%s"...', args.load_folder_file[0], args.load_folder_file[1])
+        nnet.load_checkpoint(args.load_folder_file[0], args.load_folder_file[1])
+    else:
+        log.warning('Not loading a checkpoint!')
+
+    log.info('Loading the Coach...')
+    c = Coach(g, nnet, args)
+
+    if args.load_model:
+        log.info("Loading 'trainExamples' from file...")
+        c.loadTrainExamples()
+
+    log.info('Starting the learning process 🎉')
+    c.learn()
+
+
+if __name__ == "__main__":
+    main()
