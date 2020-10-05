@@ -1,48 +1,76 @@
+from __future__ import print_function
 import sys
 sys.path.append('..')
-
-# Global imports
+from game import Game
+# from beck.beck_logic import Board
 import numpy as np
 from scipy.ndimage import convolve
 
-# Local imports
-from game import Game
-
 class BeckGame(Game):
-    def __init__(self, m=4, n=9, k=4):
+    square_content = {
+        -1: "X",
+        +0: "-",
+        +1: "O"
+    }
+
+    @staticmethod
+    def getSquarePiece(piece):
+        return BeckGame.square_content[piece]
+
+    def __init__(self, m, n, k):
         assert k <= m and k <= n, "n-in-a-row must fit on the board all four ways!"
-        self.m, self.n, self.k = m, n, k
+        self.m = m
+        self.n = n
+        self.k = k
         self.valid_wins = [
             np.identity(k),
             np.rot90(np.identity(k)),
             np.ones((1,k)),
             np.ones((k,1))
         ]
-        self.players = [1, 2]
 
-    def get_initial_state(self):
-        return np.zeros((self.m, self.n))
+    def getInitBoard(self):
+        # return initial board (numpy board)
+        pieces = [None]*self.m
+        for i in range(self.m):
+            pieces[i] = [0]*self.n
+        return np.array(pieces)
 
-    def get_next_state(self, state, player, action):
-        state = np.copy(state)
-        state[action // self.n, action % self.n] = player
-        return state, 3 - player
+    def getBoardSize(self):
+        # (a,b) tuple
+        return (self.m, self.n)
 
-    def get_actions_size(self):
-        return self.m * self.n
+    def getActionSize(self):
+        # return number of actions
+        return self.m*self.n
 
-    def get_allowed_actions(self, state, player=1):
-        return (state == 0).ravel()
-        # allowed_coordinates = np.argwhere(state == 0)
-        # return [x[0] * self.m + x[1] for x in allowed_coordinates]
+    def getNextState(self, board, player, action):
+        # if player takes action on board, return next (board,player)
+        # action must be a valid move
+        # if action == self.n*self.n:    < --- no passing
+        #     return (board, -player)
+        x, y = (int(action/self.n), action%self.n)
+        new_board = np.copy(board)
+        new_board[x][y] = player
+        return (new_board, -player)
 
-    def get_is_terminal_state(self, state, player=1):
-        if (state != 0).sum() == self.m * self.n:
-            return True
+    def getValidMoves(self, board, player):
+        # return a fixed size binary vector
+        valids = (board == 0).flatten().astype(int)
+        return np.array(valids)
 
-        is_terminal_state = False
-        for p in self.players:
-            filtered_board = (state == p).astype(int)
+    def getGameEnded(self, board, player):        
+        """
+        Input:
+            board: current board
+            player: current player (1 or -1)
+        Returns:
+            r: 0 if game has not ended. 1 if player won, -1 if player lost,
+               small non-zero value for draw.
+               
+        """
+        for p in [player, -player]:
+            filtered_board = (board == p).astype(int)
             for win in self.valid_wins:
                 if self.k in convolve(
                     filtered_board,
@@ -51,55 +79,49 @@ class BeckGame(Game):
                     cval=0.0,
                     origin=0
                 ):
-                    is_terminal_state = True
-                    break
-            if is_terminal_state:
-                break
+                    return (p * player)
 
-        return is_terminal_state
+        if (board != 0).sum() == self.m * self.n:
+            return 0.0001
+        
+        return 0
 
-    def get_result(self, state, player=1):
-        winner = None
+    def getCanonicalForm(self, board, player):
+        # return state if player==1, else return -state if player==-1
+        return player*board
 
-        for p in self.players:
-            filtered_board = (state == p).astype(int)
-            for win in self.valid_wins:
-                if self.k in convolve(
-                    filtered_board,
-                    win,
-                    mode='constant',
-                    cval=0.0,
-                    origin=0
-                ):
-                    winner = p
-                    break
-            if winner is not None:
-                break
-
-        if winner is not None:
-            return 1 if winner == player else -1
-
-        if (state != 0).sum() == self.m * self.n:
-            return 0
-
-        return None
-
-    def get_canonical_form(self, state, player):
-        canonical_state = np.copy(state)
-        if player == 2:
-            ones, twos = canonical_state == 1, canonical_state == 2
-            canonical_state[ones] = 2
-            canonical_state[twos] = 1
-        return canonical_state
-
-    def get_symmetries(self, state, pi):
+    def getSymmetries(self, board, pi):
+        # mirror, rotational
+        assert(len(pi) == self.m*self.n)  # 1 for pass
         pi_board = np.reshape(pi, (self.m, self.n))
         return [
-            (state, pi),
-            (np.rot90(state, 2), np.rot90(pi_board, 2).ravel()),
-            (np.flip(state, axis=0), np.flip(pi_board, axis=0).ravel()),
-            (np.flip(state, axis=1), np.flip(pi_board, axis=1).ravel())
+            (board, pi),
+            (np.rot90(board, 2), np.rot90(pi_board, 2).ravel()),
+            (np.flip(board, axis=0), np.flip(pi_board, axis=0).ravel()),
+            (np.flip(board, axis=1), np.flip(pi_board, axis=1).ravel())
         ]
 
-    def get_hash_of_state(self, state):
-        return hash(state.tostring())
+    def stringRepresentation(self, board):
+        return board.tostring()
+
+    def stringRepresentationReadable(self, board):
+        board_s = "".join(self.square_content[square] for row in board for square in row)
+        return board_s
+
+    @staticmethod
+    def display(board):
+        m = board.shape[0]
+        n = board.shape[1]
+        print("   ", end="")
+        for y in range(n):
+            print(y, end=" ")
+        print("")
+        print("-----------------------")
+        for y in range(m):
+            print(y, "|", end="")    # print the row #
+            for x in range(n):
+                piece = board[y][x]    # get the piece to print
+                print(BeckGame.square_content[piece], end=" ")
+            print("|")
+
+        print("-----------------------")

@@ -1,134 +1,132 @@
-# Global imports
+import logging
 import math
-import numpy as np
-from queue import Queue
-from threading import Thread
 
-class ModelWorker(Thread):
-    def __init__(self, queue, model, parallel_threads):
-        Thread.__init__(self)
-        self.queue = queue
-        self.model = model
-        self.parallel_threads = parallel_threads
-    
-    def run(self):
-        while True:
-            pass
+import numpy as np
+
+EPS = 1e-8
+
+log = logging.getLogger(__name__)
+
 
 class MCTS():
-    def __init__(self, game, model, args):
+    """
+    This class handles the MCTS tree.
+    """
+
+    def __init__(self, game, nnet, args):
         self.game = game
-        self.model = model
-        self.actions_size = self.game.get_actions_size()
-
-        self.validate_mcts_args(args)
+        self.nnet = nnet
         self.args = args
+        self.Qsa = {}  # stores Q values for s,a (as defined in the paper)
+        self.Nsa = {}  # stores #times edge s,a was visited
+        self.Ns = {}  # stores #times board s was visited
+        self.Ps = {}  # stores initial policy (returned by neural net)
 
-        self.iterate = self.straight_iterate if args['parallel_threads'] == 1 else self.parallel_iterate
+        self.Es = {}  # stores game.getGameEnded ended for board s
+        self.Vs = {}  # stores game.getValidMoves for board s
 
-        self.reset()
+    def getActionProb(self, canonicalBoard, temp=1):
+        """
+        This function performs numMCTSSims simulations of MCTS starting from
+        canonicalBoard.
+        Returns:
+            probs: a policy vector where the probability of the ith action is
+                   proportional to Nsa[(s,a)]**(1./temp)
+        """
+        for i in range(self.args.numMCTSSims):
+            self.search(canonicalBoard)
 
-    def reset(self):
-        self.Qsa = {}
-        self.Wsa = {}
-        self.Nsa = {}
-        self.Ns = {}
-        self.Ps = {}
-        self.Ts = {}
-        self.As = {}
-        self.Vs = {}
+        s = self.game.stringRepresentation(canonicalBoard)
+        counts = [self.Nsa[(s, a)] if (s, a) in self.Nsa else 0 for a in range(self.game.getActionSize())]
 
-    def validate_mcts_args(self, args):
-        assert 'parallel_threads' in args, 'MCTS args must specify parallel_threads'
-        assert 'cpuct' in args, 'MCTS args must specify cpuct'
-        assert 'mcts_iterations' in args, 'MCTS args must specify mcts_iterations'
-
-    def get_probs(self, canonical_state, temperature=0):
-        canonical_state = canonical_state.copy()
-        self.straight_iterate(canonical_state)
-
-        for _ in range(self.args['mcts_iterations'] - 1):
-            self.iterate(canonical_state)
-        
-        s = self.game.get_hash_of_state(canonical_state)
-        counts = np.array([self.Nsa[(s,a)] if (s,a) in self.Nsa else 0 for a in range(self.actions_size)])
-
-        # TODO Dirichlet noise!
-        if temperature == 0:
-            best_action = np.argmax(counts)
-            probs = np.zeros(self.actions_size)
-            probs[best_action] = 1
-            return probs
-        else:
-            probs = np.power(counts, 1./temperature)
-            probs /= probs.sum()
+        if temp == 0:
+            bestAs = np.array(np.argwhere(counts == np.max(counts))).flatten()
+            bestA = np.random.choice(bestAs)
+            probs = [0] * len(counts)
+            probs[bestA] = 1
             return probs
 
-    def parallel_iterate(self, canonical_state):
-        pass
+        counts = [x ** (1. / temp) for x in counts]
+        counts_sum = float(sum(counts))
+        probs = [x / counts_sum for x in counts]
+        return probs
 
-    def straight_iterate(self, canonical_state):
-        s = self.game.get_hash_of_state(canonical_state)
+    def search(self, canonicalBoard):
+        """
+        This function performs one iteration of MCTS. It is recursively called
+        till a leaf node is found. The action chosen at each node is one that
+        has the maximum upper confidence bound as in the paper.
+        Once a leaf node is found, the neural network is called to return an
+        initial policy P and a value v for the state. This value is propagated
+        up the search path. In case the leaf node is a terminal state, the
+        outcome is propagated up the search path. The values of Ns, Nsa, Qsa are
+        updated.
+        NOTE: the return values are the negative of the value of the current
+        state. This is done since v is in [-1,1] and if v is the value of a
+        state for the current player, then its value is -v for the other player.
+        Returns:
+            v: the negative of the value of the current canonicalBoard
+        """
 
-        if s not in self.Ts:
-            # Then we haven't visited this node before: check if it's terminal
-            self.Ts[s] = self.game.get_result(canonical_state, 1)
+        s = self.game.stringRepresentation(canonicalBoard)
 
-        if self.Ts[s] is not None:
-            # Then s is a terminal leaf node: return -value
-            return -self.Ts[s]
+        if s not in self.Es:
+            self.Es[s] = self.game.getGameEnded(canonicalBoard, 1)
+        if self.Es[s] != 0:
+            # terminal node
+            return -self.Es[s]
 
         if s not in self.Ps:
-            # Then s is a non-terminal leaf node:
-            self.Ps[s], v = self.model.predict(canonical_state)
-            allowed_actions = self.game.get_allowed_actions(canonical_state, 1)
-            self.Ps[s] *= allowed_actions
-
-            sum_Ps_s = self.Ps[s].sum()
+            # leaf node
+            self.Ps[s], v = self.nnet.predict(canonicalBoard)
+            valids = self.game.getValidMoves(canonicalBoard, 1)
+            self.Ps[s] = self.Ps[s] * valids  # masking invalid moves
+            sum_Ps_s = np.sum(self.Ps[s])
             if sum_Ps_s > 0:
-                self.Ps[s] /= sum_Ps_s
+                self.Ps[s] /= sum_Ps_s  # renormalize
             else:
-                self.Ps[s] += allowed_actions
-                self.Ps[s] /= self.Ps[s].sum()
-                print('Something bad happened')
-            
-            self.As[s] = allowed_actions
+                # if all valid moves were masked make all valid moves equally probable
+
+                # NB! All valid moves may be masked if either your NNet architecture is insufficient or you've get overfitting or something else.
+                # If you have got dozens or hundreds of these messages you should pay attention to your NNet and/or training process.   
+                log.error("All valid moves were masked, doing a workaround.")
+                self.Ps[s] = self.Ps[s] + valids
+                self.Ps[s] /= np.sum(self.Ps[s])
+
+            self.Vs[s] = valids
             self.Ns[s] = 0
             return -v
-        
-        allowed_actions = self.As[s]
-        best_value = -float('inf')
-        best_action = -1
 
-        for a in range(self.actions_size):
-            if allowed_actions[a]:
-                # if epsilon == 0:
-                #     probs = self.Ps[s][a]
-                # else:
-                #     dirichlet_noise = np.random.dirichlet([config.ALPHA] * len(current_node.children))
-                if (s,a) in self.Qsa:
-                    u = self.Qsa[(s,a)] + self.args['cpuct'] * self.Ps[s][a] * math.sqrt(self.Ns[s]) / (1 + self.Nsa[(s,a)])
+        valids = self.Vs[s]
+        cur_best = -float('inf')
+        best_act = -1
+
+        # pick the action with the highest upper confidence bound
+        for a in range(self.game.getActionSize()):
+            if valids[a]:
+                if (s, a) in self.Qsa:
+                    u = self.Qsa[(s, a)] + self.args.cpuct * self.Ps[s][a] * math.sqrt(self.Ns[s]) / (
+                            1 + self.Nsa[(s, a)])
                 else:
-                    u = self.args['cpuct'] * self.Ps[s][a] * math.sqrt(self.Ns[s])
-                
-                if u > best_value:
-                    best_value = u
-                    best_action = a
-        
-        next_state, next_player = self.game.get_next_state(canonical_state, 1, best_action)
-        next_state = self.game.get_canonical_form(next_state, next_player)
+                    u = self.args.cpuct * self.Ps[s][a] * math.sqrt(self.Ns[s] + EPS)  # Q = 0 ?
 
-        v = self.straight_iterate(next_state)
+                if u > cur_best:
+                    cur_best = u
+                    best_act = a
 
-        a = best_action
-        if (s,a) in self.Qsa:
-            self.Qsa[(s,a)] = (self.Nsa[(s,a)]*self.Qsa[(s,a)] + v) / (self.Nsa[(s,a)] + 1)
-            self.Nsa[(s,a)] += 1
+        a = best_act
+        next_s, next_player = self.game.getNextState(canonicalBoard, 1, a)
+        next_s = self.game.getCanonicalForm(next_s, next_player)
+
+        v = self.search(next_s)
+
+        if (s, a) in self.Qsa:
+            self.Qsa[(s, a)] = (self.Nsa[(s, a)] * self.Qsa[(s, a)] + v) / (self.Nsa[(s, a)] + 1)
+            self.Nsa[(s, a)] += 1
+
         else:
-            self.Qsa[(s,a)] = v
-            self.Nsa[(s,a)] = 1
-        
+            self.Qsa[(s, a)] = v
+            self.Nsa[(s, a)] = 1
+
         self.Ns[s] += 1
         return -v
-
-
