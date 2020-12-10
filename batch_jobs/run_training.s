@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --cpus-per-task=21
-#SBATCH --time=3-0:00:00
-#SBATCH --mem=2GB
+#SBATCH --cpus-per-task=8
+#SBATCH --time=5-0:00:00
+#SBATCH --mem=64GB
 ##SBATCH --gres=gpu:4
 ##SBATCH --gres=gpu:p100:4
 #SBATCH --job-name=4IAR_AZ_run-1
@@ -22,4 +22,4 @@ cp -avr $HOME/code/4IAR-RL/classes $RUNDIR
 mkdir -p $RUNDIR/checkpoints
 
 cd $RUNDIR
-python -W ignore -u $RUNDIR/classes/run_training.py
+python -W ignore -u $RUNDIR/classes/main.py
