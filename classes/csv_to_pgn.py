@@ -1,6 +1,10 @@
 import os
 import pandas as pd
 
+### This script takes a CSV of tournament results and converts
+### them to minimal chess notation so that BayesELO can calculate
+### ELO ratings. 
+
 participants_dir = '/scratch/jt3974/tournaments/tournament_1'
 results_dir = '/scratch/jt3974/tournaments/results/tournament_1'
 

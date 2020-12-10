@@ -2,8 +2,8 @@ import datetime
 import numpy as np
 import os
 
-participants_dir = '/scratch/jt3974/tournaments/tournament_1'
-results_dir = '/scratch/jt3974/tournaments/results/tournament_1'
+participants_dir = '/scratch/jt3974/tournaments/tournament_2'
+results_dir = '/scratch/jt3974/tournaments/results/tournament_2'
 
 participants = sorted([x[12:] for x in os.listdir(participants_dir)])
 
